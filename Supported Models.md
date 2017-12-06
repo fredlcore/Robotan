@@ -14,7 +14,7 @@ BLITZ X/XE
 BLITZ XK  
 CIIKY XE  
 CIIKY XH  
-CIIKY XH2  
+CIIKY XH2 - CONFIRMED  
 CIIKY XK  
 JOY X  
 JOY XE  
@@ -46,7 +46,7 @@ L200R Evolution
 L30 Basic  
 L30 Deluxe  
 L30 Elite  
-L30 Elite Plus  
+L30 Elite Plus - CONFIRMED  
 L30 Elite Super Plus  
 L300 Basic  
 L300 Elite  
@@ -78,7 +78,7 @@ Stiga Autoclip 140
 Stiga Autoclip 145  
 Stiga Autoclip 223  
 Stiga Autoclip 225S  
-Stiga Autoclip 228S  
+Stiga Autoclip 228S - CONFIRMED  
 Stiga Autoclip 230S  
 Stiga Autoclip 325  
 Stiga Autoclip 328S  
