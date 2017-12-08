@@ -11,6 +11,9 @@ To assemble the Robotan board, you'll need the board itself plus:
   </UL>
 Except for the Wemos D1 Mini, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.
 
+Then proceed as follows:
+<BR>
+
 1. Solder the two 8 pin sockets to the Wemos D1 mini and the two 8 pin headers on the Robotan board.
 
 2. Solder the MAX 3232 CPE on the board.
