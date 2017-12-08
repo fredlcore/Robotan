@@ -31,7 +31,7 @@ If you have configured Robotan to use your existing WiFi network, you have to be
 4. Browse to the Robotan.ino.bin you have downloaded before and click "Update".
 
 5. If the upload was successful, Robotan will reboot and after a short while you should be able to access the Robotan web interface at
-`http://192.168.4.1`
+`http://192.168.4.1`.
 If you have cofigured Robotan to use your own WiFi network, these settings will still be there, so you can access the web interface via
 the IP number you have used before.
 
