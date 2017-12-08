@@ -1,7 +1,7 @@
-<H3>Troubleshooting</H3>
-<H2>I'm asked for a username and password!</H2>
+<H2>Troubleshooting</H2>
+<H3>I'm asked for a username and password!</H3>
 The username is "Robotan", the password is "Robotan88" (of course without quotation marks)
-<H2>I can't open the Robotan website</H2>
+<H3>I can't open the Robotan website</H3>
 There could be several reasons:
 
 1. Make sure Robotan and you are in the same WiFi network. If you have configured Robotan to use your own network, but in the list of
