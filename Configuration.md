@@ -19,7 +19,7 @@ your WiFi network. This will ensure it will re-connect to your network even if i
 <H3>Configuring push notifications</H3>
 Robotan can notify you in case the robot reports an error, for example when it gets stuck.  
 To be able to send the notifications, Robotan must use your own WiFi network (see above). Robotan will call the URL defined at "Notify URL"
-and add the reason for the notification (i.e. "Lift Error") at the very end, so you can call an URL and pass the reason as a parameter.<BR>
+and add the reason for the notification (i.e. "Lift Error") at the very end, so you can call an URL and pass the reason as a parameter. If you don't want the error to be passed on, then just end your URL with a <code>#</code>. The reason text will still be appended, but the <code>#</code> will basically make the text being ignored in the URL.<BR>
 Please take note that you can only call plain http URLs, https is currently not supported! However, you can call a http URL for example on 
 your local network and then make a https call from there.
 <H4>Example for using Prowl</H4>
