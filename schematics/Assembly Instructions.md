@@ -1,12 +1,13 @@
 <H2>Assembly Instructions</H2>
 To assemble the Robotan board, you'll need the board itself plus:  
 <BR>
-  * 1 x Wemos D1 Mini
-  * 1 x MAX 3232 CPE DIP 16 RS232/TTL converter
-  * 1 x 9 pin male serial connector
-  * 5 x 0.1µF capacitators
-  * 2 x 8 pin header
-  * 2 x 8 pin socket
+<UL>
+<LI>1 x Wemos D1 Mini
+<LI>1 x MAX 3232 CPE DIP 16 RS232/TTL converter
+<LI>1 x 9 pin male serial connector
+<LI>5 x 0.1µF capacitators
+<LI>2 x 8 pin header
+<LI>2 x 8 pin socket
 
 Except for the Wemos D1 Mini, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.
 
