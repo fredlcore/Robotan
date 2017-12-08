@@ -12,7 +12,7 @@ To assemble the Robotan board, you'll need the <A HREF="schematics">plain board<
 Except for the Wemos D1 Mini, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.  
 <BR>
 Some boards from a collective order are still available. Contact robotan (ät) code-it.de if you are interested (German or English).
-<BR>
+<BR><BR>
 To assemble the board, proceed as follows:
 <BR>
 
