@@ -1,5 +1,6 @@
 # Robotan
-WiFi access to Zucchetti-based lawnmower robots (Ambrogio, Stiga, Herkules etc.)
+WiFi access to Zucchetti-based lawnmower robots (Ambrogio, Stiga, Herkules etc.)  
+See a list of (assumed) compatible robots<A HREF="Supported Models.md">here</A>.
 
 <H2><A HREF="Installation.md">Installation</A></H2>
 <H2><A HREF="Setup.md">Software Setup</A></H2>
