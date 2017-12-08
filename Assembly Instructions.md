@@ -9,7 +9,8 @@ To assemble the Robotan board, you'll need the <A HREF="schematics">plain board<
 <LI>2 x 8 pin header
 <LI>2 x 8 pin socket
   </UL>
-Except for the Wemos D1 Mini, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.
+Except for the Wemos D1 Mini, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.  
+Some boards from a collective order are still available. Contact robotan (ät) code-it.de if you are interested (German or English).
 
 Then proceed as follows:
 <BR>
