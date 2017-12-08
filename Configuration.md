@@ -32,7 +32,7 @@ final URL might end like "event=Lift Error"
 <H4>Example for sending an e-mail via a PHP script</H4>
 You can download and install the <A HREF="scripts/sendmail.php">sendmail.php script</A> on your own server and configure it to send an
 e-mail through an e-mail service of your choice. The script expects the parameter "error" to be sent via a GET request like this:<BR>
-`http://this-is-my-server.com/sendmail.php?error=Error-Message`
+  <code>http://this-is-my-server.com/sendmail.php?error=Error-Message</code>
 <BR>
 Please make sure that the script runs smoothly before setting it up in Robotan by calling the script from your browser. If you receive
 an e-mail from the script, you can use the URL in the Robotan configuration like this:
