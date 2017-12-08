@@ -8,7 +8,7 @@ To assemble the Robotan board, you'll need the board itself plus:
 <LI>5 x 0.1µF capacitators
 <LI>2 x 8 pin header
 <LI>2 x 8 pin socket
-
+  </UL>
 Except for the Wemos D1 Mini, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.
 
 1. Solder the two 8 pin sockets to the Wemos D1 mini and the two 8 pin headers on the Robotan board.
