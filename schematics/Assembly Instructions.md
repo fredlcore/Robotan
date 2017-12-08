@@ -1,5 +1,5 @@
 <H2>Assembly Instructions</H2>
-To assemble the Robotan board, you'll need the board itself plus:  
+To assemble the Robotan board, you'll need the plain board itself plus:  
 <BR>
 <UL>
 <LI>1 x Wemos D1 Mini
