@@ -1,4 +1,4 @@
-<H2>Zusammenbauanleitung</H2>
+<H2>Zusammenbau des Robotan Boards</H2>
 English version can be found <A HREF="Assembly Instructions.md">here</A>.
 <BR>
 Um das Robotan Board zusammenzubauen, benötigt man das 
