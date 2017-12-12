@@ -1,4 +1,6 @@
 <H2>Installation</H2>
+English version can be found <A HREF="Installation.md">here</A>.  
+  
 Die Installation des Robotan Boards ist nicht besonders schwer, aber bitte beachte, dass es sich hierbei nicht um ein offizielles Produkt von Zucchetti oder eines anderen Rasenmähroboterherstellers handelt.<BR>
 DESWEGEN ERLISCHT DIE GARANTIE BEIM EINBAU! Bitte also nur dann mit dem Einbau fortfahren, wenn man sich dieser Konsequenz bewusst ist!
 

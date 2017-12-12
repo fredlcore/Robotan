@@ -1,4 +1,6 @@
 <H2>Installation</H2>
+Die deutsche Version befindet sich <A HREF="Installation_de.md">hier</A>.  
+  
 Installaion of the Robotan board is pretty straightforward, but please take note that because this is not an official Zucchetti product,
 YOU WILL LOSE YOUR WARRANTY. So please proceed only if you are aware of this fact!
 
