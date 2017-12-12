@@ -1,6 +1,6 @@
 <H2>Zusammenbau des Robotan Boards</H2>
 English version can be found <A HREF="Assembly Instructions.md">here</A>.
-<BR>
+<BR><BR>
 Um das Robotan Board zusammenzubauen, benötigt man das 
 <A HREF="schematics">unbestückte Board</A> sowie:  
 <BR>
