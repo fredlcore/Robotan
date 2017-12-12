@@ -1,4 +1,5 @@
 <H2>Troubleshooting</H2>
+Die deutsche Version findet man <A HREF="Troubleshooting_de.md">hier</A>.
 <H3>I'm asked for a username and password!</H3>
 The username is <code>Robotan</code>, the password is <code>Robotan88</code>
 <H3>I can't open the Robotan website</H3>

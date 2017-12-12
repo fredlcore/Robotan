@@ -1,4 +1,5 @@
 <H2>Frequently Asked Questions (FAQ)</H2>
+Die deutsche Version findet man <A HREF="FAQ_de.md">hier</A>.
 <H3>Where can I get support?</H3>
 The following forum is currently used to discuss the development of Robotan and (limited) support can be given there as well:<BR>
   http://www.roboter-forum.com/showthread.php?24443-WLAN-Steuerung-f%FCr-Ambrogio-L30-und-baugleiche-Modelle-(Stiga-Wiper-Wolf)
