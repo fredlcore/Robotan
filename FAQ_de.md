@@ -1,6 +1,6 @@
 <H2>Frequently Asked Questions (FAQ)</H2>
 English version can be found here <A HREF="FAQ_de.md">here</A>.
-<H3>Wo kan nich Hilfe bekommen?</H3>
+<H3>Wo kann ich Hilfe bekommen?</H3>
 Das folgende Forum ist momentan der Platz, um die Entwicklung von Robotan und
 (begrenzter) Support kann dort gegeben werden:<BR>
   http://www.roboter-forum.com/showthread.php?24443-WLAN-Steuerung-f%FCr-Ambrogio-L30-und-baugleiche-Modelle-(Stiga-Wiper-Wolf)
