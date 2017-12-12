@@ -1,6 +1,6 @@
 <H2>Troubleshooting</H2>
 <H3>I'm asked for a username and password!</H3>
-The username is "Robotan", the password is "Robotan88" (of course without quotation marks)
+The username is <code>Robotan</code>, the password is <code>Robotan88</code>
 <H3>I can't open the Robotan website</H3>
 There could be several reasons:
 

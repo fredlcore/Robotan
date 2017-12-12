@@ -1,6 +1,6 @@
 <H2>Configuring Robotan</H2>
 Currently, there are two options you can configure when using Robotan: The WiFi network and the push notification. To configure these options, go to<BR>
-`http://192.168.4.1/config`
+  <code>http://192.168.4.1/config</code>
 <BR>
 If you are asked for a login, the username is "Robotan" and the password is "Robotan88".  
 If Robotan is already connected to your own WiFi network, you'll have to use the IP address assigned to Robotan or try using the 
@@ -19,24 +19,24 @@ your WiFi network. This will ensure it will re-connect to your network even if i
 <H3>Configuring push notifications</H3>
 Robotan can notify you in case the robot reports an error, for example when it gets stuck.  
 To be able to send the notifications, Robotan must use your own WiFi network (see above). Robotan will call the URL defined at "Notify URL"
-and add the reason for the notification (i.e. "Lift Error") at the very end, so you can call an URL and pass the reason as a parameter.<BR>
+and add the reason for the notification (i.e. "Lift Error") at the very end, so you can call an URL and pass the reason as a parameter. If you don't want the error to be passed on, then just end your URL with a <code>#</code>. The reason text will still be appended, but the <code>#</code> will basically make the text being ignored in the URL.<BR>
 Please take note that you can only call plain http URLs, https is currently not supported! However, you can call a http URL for example on 
 your local network and then make a https call from there.
 <H4>Example for using Prowl</H4>
 <A HREF="http://www.prowlapp.com">Prowl</A> is a notification app for iPhone and iPad. After you register, you can create an API key which 
 you can send your notifications to. The URL for Robotan would look like this:<BR>
-`http://api.prowlapp.com/publicapi/add?apikey=INSERT YOUR API KEY HERE&application=Robotan&event=`
+<code>http://api.prowlapp.com/publicapi/add?apikey=INSERT YOUR API KEY HERE&application=Robotan&event=</code>
 <BR>
 Take note of the end of the URL: The last parameter is "event=", so Robotan will add the reason for the notification there, so that the
 final URL might end like "event=Lift Error"
 <H4>Example for sending an e-mail via a PHP script</H4>
 You can download and install the <A HREF="scripts/sendmail.php">sendmail.php script</A> on your own server and configure it to send an
 e-mail through an e-mail service of your choice. The script expects the parameter "error" to be sent via a GET request like this:<BR>
-`http://this-is-my-server.com/sendmail.php?error=Error-Message`
+  <code>http://this-is-my-server.com/sendmail.php?error=Error-Message</code>
 <BR>
 Please make sure that the script runs smoothly before setting it up in Robotan by calling the script from your browser. If you receive
 an e-mail from the script, you can use the URL in the Robotan configuration like this:
 <BR>
-`http://this-is-my-server.com/sendmail.php?error=`
+  <code>http://this-is-my-server.com/sendmail.php?error=</code>
 <BR>
 Then click "Set URL" and Robotan will send out a notification each time an error occurs.

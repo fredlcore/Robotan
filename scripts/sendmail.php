@@ -1,3 +1,6 @@
+// Uses PEAR's Mail class - usually part of a standard PHP installation, otherwise get it from here:
+// https://pear.php.net/package/Mail
+
 <?php
 require_once "Mail.php";
 

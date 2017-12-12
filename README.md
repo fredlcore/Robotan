@@ -1,7 +1,8 @@
 # Robotan
 Die deutsche Version gibt es <A HREF="README_de.md">hier</A>.  
 WiFi access to Zucchetti-based lawnmower robots (Ambrogio, Stiga, Herkules etc.)  
-See a list of (assumed) compatible robots <A HREF="Supported Models.md">here</A>.
+See a list of (partly still assumed) compatible robots <A HREF="Supported Models.md">here</A>.  
+Some boards left over from a collective order are still available. Contact robotan (ät) code-it.de if you are interested (German or English).
 
 <H2><A HREF="Assembly Instructions.md">Building the Robotan board</A></H2>
 <H2><A HREF="Installation.md">Installation</A></H2>
