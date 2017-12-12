@@ -1,6 +1,6 @@
 <H2>Assembly Instructions</H2>
 Die deutsche Version findet man  <A HREF="Assembly Instructions_de.md">hier</A>.  
-<BR>
+<BR><BR>
 To assemble the Robotan board, you'll need the <A HREF="schematics">plain board</A> itself plus:  
 <BR>
 <UL>
