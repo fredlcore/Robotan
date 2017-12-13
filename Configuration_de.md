@@ -55,7 +55,7 @@ entsprechenden https-Aufruf erzeugt.
 iPhone und iPad. Nachdem Du Dich dort registriert hast, kannst Du dort einen API
 Schlüssel erzeigen, über den Du Benachrichtigungen an Dein Handy schicken kannst.
 Die URL für Robotan würde folgendermaßen aussehen:<BR>
-<code>http://api.prowlapp.com/publicapi/add?apikey=INSERT YOUR API KEY HERE&application=Robotan&event=</code>
+<code>`http://api.prowlapp.com/publicapi/add?apikey=INSERT YOUR API KEY HERE&application=Robotan&event=`</code>
 <BR>
 Beachte hierbei das Ende der URL: Der letzte Parameter ist "event=", woran 
 Robotan den Benachrichtigungsgrund anhängen wird, so dass die endgülgtige URL
@@ -67,14 +67,14 @@ Du kannst das <A HREF="scripts/sendmail.php">sendmail.php script</A> auf Deinen
 eigenen Server herunterladen und es so konfigurieren, dass es eine E-Mail über
 einen E-Mail Server Deiner Wahl verschickt. Das Script erwartet den Parameter
 "error" über einen HTTP GET-Aufruf, z.B.
-  <code>http://this-is-my-server.com/sendmail.php?error=Error-Message</code>
+  <code>`http://this-is-my-server.com/sendmail.php?error=Error-Message`</code>
 <BR>
 Bitte überprüfe, dass das Script fehlerfrei läuft, bevor Du es in Robotan 
 einbindest, indem Du es vom Browser aus aufrufst. Wenn Du eine E-Mail von dem
 Script erhälst, kannst Du die URL in der Robotan Konfiguration wie folgt 
 einbinden:
 <BR>
-  <code>http://this-is-my-server.com/sendmail.php?error=</code>
+  <code>`http://this-is-my-server.com/sendmail.php?error=`</code>
 <BR>
 Dann klicke auf "Set URL" und Robotan wird jedes Mal, wenn ein Fehler auftritt,
 eine Benachrichtigung versenden.
