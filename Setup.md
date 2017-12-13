@@ -1,4 +1,6 @@
 <H2>Installing and updating the Robotan firmware</H2>
+Die deutsche Version befindet sich <A HREF="Setup_de.md">hier</A>.
+<BR><BR>
 The procedures of installing and updating are slightly different, but once a firmware is installed, you can always use the browser-based
 update function described further below.
 
