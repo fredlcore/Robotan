@@ -50,7 +50,7 @@ hast und klicke auf "Update".
 
 5. Wenn der Upload erfolgreich war, wird Robotan neu starten und nach einer 
 kurzen Weile solltest Du das Robotan Webinterface unter 
-<code>`http://192.168.4.1`</code> aufrufen können. Wenn Du Robotan so konfiguriert
+`http://192.168.4.1` aufrufen können. Wenn Du Robotan so konfiguriert
 hast, dass er Teil Deines WLANs ist, bleiben diese Einstellungen auch nach einem
 Update erhalten, so dass Du das Webinterface über die IP-Adresse aufrufen kannst,
 die Robotan in Deinem WLAN bekommen hat.<BR>
