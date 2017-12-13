@@ -1,5 +1,5 @@
 <H2>Robotan konfigurieren</H2>
-English version can be found <A HREF="Configuration_de.md">here</A>
+English version can be found <A HREF="Configuration_de.md">here</A>.
 <BR><BR>
 Momentan gibt es zwei Optionen, die man für die Verwendung von Robotan konfigurieren
 kann: Die WLAN-Einstellungen und die Push-Benachrichtigungen.
@@ -49,7 +49,7 @@ verschlüsselte https-Aufrufe werden nicht unterstützt! Du kannst aber eine htt
 URL in Deinem lokalen Netzwerk aufrufen, die dann von dort aus einen 
 entsprechenden https-Aufruf erzeugt.
 
-<H4>Example for using Prowl</H4>
+<H4>Beispiel: Benachrichtigung über  Prowl</H4>
 
 <A HREF="http://www.prowlapp.com">Prowl</A> ist eine Benachrichtigungs App für
 iPhone und iPad. Nachdem Du Dich dort registriert hast, kannst Du dort einen API
@@ -61,7 +61,7 @@ Beachte hierbei das Ende der URL: Der letzte Parameter ist "event=", woran
 Robotan den Benachrichtigungsgrund anhängen wird, so dass die endgülgtige URL
 z.B. auf "event=Lift Error" enden könnte.
 
-<H4>Example for sending an e-mail via a PHP script</H4>
+<H4>Beispiel: E-Mail Versand über ein PHP Script</H4>
 
 Du kannst das <A HREF="scripts/sendmail.php">sendmail.php script</A> auf Deinen
 eigenen Server herunterladen und es so konfigurieren, dass es eine E-Mail über

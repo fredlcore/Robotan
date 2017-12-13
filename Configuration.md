@@ -1,5 +1,5 @@
 <H2>Configuring Robotan</H2>
-Die deutsche Version befindet sich <A HREF="Configuration_de.md">hier</A>
+Die deutsche Version befindet sich <A HREF="Configuration_de.md">hier</A>.
 <BR><BR>
 Currently, there are two options you can configure when using Robotan: The WiFi network and the push notification. To configure these options, go to<BR>
   <code>http://192.168.4.1/config</code>
