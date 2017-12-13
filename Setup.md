@@ -13,7 +13,7 @@ you have follow the following steps:
 2. In the Arduino IDE, set the following parameters in the "Tools" menu:
 <IMG SRC="img/ArduinoSettings.png">
 
-3. Connect the Wemos D1 with your computer via USB and flash the <A HREF="RobotanSetup.ino">RobotanSetup.ino</A>.
+3. Connect the Wemos D1 with your computer via USB but WITHOUT THE ROBOTAN BOARD ATTACHED and flash the <A HREF="RobotanSetup.ino">RobotanSetup.ino</A>.
 
 4. Now a minimal browser-based firmware update program is installed on the Wemos D1 and you can proceed with the updating procedures explained below.
 

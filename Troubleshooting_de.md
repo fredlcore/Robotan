@@ -14,3 +14,7 @@ dem Robotan WLAN und überprüfe die Konfiguration.
 2. Du bist zu weit weg vom Roboter. Nähere Dich dem Roboter und versuche es 
 noch einmal. Wenn dies in einem (größeren) Teil Deines Gartens passiert, 
 müsstest Du über den Kauf eines WLAN-Repeaters nachdenken.
+
+<H3>Ich kann die Firmware nicht mit der Arduino IDE flashen</H3>
+Wenn Du die initiale Firmware auf den Wemos D1 Mini flashen möchtest, darf
+das Robotan Board dabei nicht auf den Wemos aufgesteckt sein!

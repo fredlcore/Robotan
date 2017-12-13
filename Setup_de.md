@@ -18,7 +18,7 @@ Schrite durchführen:
 werden:
 <IMG SRC="img/ArduinoSettings.png">
 
-3. Verbinde den Wemos D1 mit Deinem Computer über USB und flashe den Sketch
+3. Verbinde den Wemos D1 über USB mit Deinem Computer ABER OHNE DAS ROBOTAN BOARD und flashe den Sketch
 <A HREF="RobotanSetup.ino">RobotanSetup.ino</A>.
 
 4. Danach ist eine minimale Browser-Upload Firmware auf dem Wemos D1 installiert 

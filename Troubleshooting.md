@@ -11,3 +11,5 @@ Connect to the Robotan WiFi network and check the configuration.
 
 2. You are too far away from the robot. Get closer and try again. If this occurs in large(r) parts of your garden, you might want to get 
 a WiFi repeater.
+<H3>I can't flash the firmware using the Arduino IDE</H3>
+Please make sure that the Robotan board is not attached to the Wemos D1 Mini when flashing the initial firmware via USB!
