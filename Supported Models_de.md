@@ -9,7 +9,7 @@ Alpina
 
 Alpina AR-1 500  
 Alpina AR-2-1200  
-Alpina AR-2-600  
+Alpina AR-2-600 - CONFIRMED (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
 
 Herkules Wiper
 
@@ -20,7 +20,7 @@ CIIKY XH
 CIIKY XH2 - CONFIRMED  
 CIIKY XK  
 JOY X  
-JOY XE  
+JOY XE - CONFIRMED (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
 JOY XH  
 JOY XK  
 ONE X V10  
@@ -63,7 +63,7 @@ L75 Deluxe
 L75 Elite  
 L75 Evolution  
 L85 Basic  
-L85 Deluxe  
+L85 Deluxe - CONFIRMED (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
 L85 Elite V5  
 L85 Evolution V5  
 
@@ -75,7 +75,7 @@ R50 AC
 
 Stiga
 
-Stiga Autoclip 125  
+Stiga Autoclip 125 - CONFIRMED (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
 Stiga Autoclip 127  
 Stiga Autoclip 140  
 Stiga Autoclip 145  
