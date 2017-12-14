@@ -27,14 +27,14 @@ your local network and then make a https call from there.
 <H4>Example for using Prowl (Apple iPhone/iPad)</H4>
 <A HREF="http://www.prowlapp.com">Prowl</A> is a notification app for iPhone and iPad. After you register, you can create an API key which 
 you can send your notifications to. The URL for Robotan would look like this:<BR>
-<code>http://api.prowlapp.com/publicapi/add?apikey=**INSERT YOUR API KEY HERE**&application=Robotan&event=</code>
+<code>http://api.prowlapp.com/publicapi/add?apikey=INSERT YOUR API KEY HERE&application=Robotan&event=</code>
 <BR>
 Take note of the end of the URL: The last parameter is "event=", so Robotan will add the reason for the notification there, so that the
 final URL might end like "event=Lift Error"
 <H4>Example for using SimplePush (Android)</H4>
 <A HREF="http://www.simplepush.io">SimplePush</A> is a notification app for Android. After you've downloaded the app, you'll get a key which 
 you can send your notifications to. The URL for Robotan would look like this:<BR>
-<code>http://http://api.simplepush.io/send/**INSERT YOUR KEY HERE**/</code>. 
+<code>http://http://api.simplepush.io/send/INSERT YOUR KEY HERE/</code>. 
 The error message will then be pushed to your Android device running the 
 SimplePush app. Please take note that the URL must end with a <code>/</code>
 after the key!
