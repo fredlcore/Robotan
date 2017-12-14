@@ -3,6 +3,6 @@
 ausschließlich für Deine eigenen, privaten, nicht-kommerziellen Anwendungen 
 verwenden.  <BR>
 2. Du darfst dieses Softwarepaket nur im unveränderten Zustand weiterverbreiten.  <BR>
-3. Jegliche andere Nutzung bedarf der schriftlichen Genehmigung des Autors, Dr. Frederik Holst (bsb@code-it.de)  <BR>
+3. Jegliche andere Nutzung bedarf der schriftlichen Genehmigung des Autors, Dr. Frederik Holst (robotan (ät) code-it.de)  <BR>
 <BR>  
 Kolborn, 14.12.2017
