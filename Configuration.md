@@ -24,13 +24,21 @@ To be able to send the notifications, Robotan must use your own WiFi network (se
 and add the reason for the notification (i.e. "Lift Error") at the very end, so you can call an URL and pass the reason as a parameter. If you don't want the error to be passed on, then just end your URL with a <code>#</code>. The reason text will still be appended, but the <code>#</code> will basically make the text being ignored in the URL.<BR>
 Please take note that you can only call plain http URLs, https is currently not supported! However, you can call a http URL for example on 
 your local network and then make a https call from there.
-<H4>Example for using Prowl</H4>
+<H4>Example for using Prowl (Apple iPhone/iPad)</H4>
 <A HREF="http://www.prowlapp.com">Prowl</A> is a notification app for iPhone and iPad. After you register, you can create an API key which 
 you can send your notifications to. The URL for Robotan would look like this:<BR>
-<code>http://api.prowlapp.com/publicapi/add?apikey=INSERT YOUR API KEY HERE&application=Robotan&event=</code>
+<code>http://api.prowlapp.com/publicapi/add?apikey=**INSERT YOUR API KEY HERE**&application=Robotan&event=</code>
 <BR>
 Take note of the end of the URL: The last parameter is "event=", so Robotan will add the reason for the notification there, so that the
 final URL might end like "event=Lift Error"
+<H4>Example for using SimplePush (Android)</H4>
+<A HREF="http://www.simplepush.io">SimplePush</A> is a notification app for Android. After you've downloaded the app, you'll get a key which 
+you can send your notifications to. The URL for Robotan would look like this:<BR>
+<code>http://http://api.simplepush.io/send/**INSERT YOUR KEY HERE**/</code>. 
+The error message will then be pushed to your Android device running the 
+SimplePush app. Please take note that the URL must end with a <code>/</code>
+after the key!
+<BR>
 <H4>Example for sending an e-mail via a PHP script</H4>
 You can download and install the <A HREF="scripts/sendmail.php">sendmail.php script</A> on your own server and configure it to send an
 e-mail through an e-mail service of your choice. The script expects the parameter "error" to be sent via a GET request like this:<BR>

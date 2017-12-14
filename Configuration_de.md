@@ -49,17 +49,29 @@ verschlüsselte https-Aufrufe werden nicht unterstützt! Du kannst aber eine htt
 URL in Deinem lokalen Netzwerk aufrufen, die dann von dort aus einen 
 entsprechenden https-Aufruf erzeugt.
 
-<H4>Beispiel: Benachrichtigung über  Prowl</H4>
+<H4>Beispiel: Benachrichtigung über Prowl (Apple iPhone/iPad)</H4>
 
 <A HREF="http://www.prowlapp.com">Prowl</A> ist eine Benachrichtigungs App für
 iPhone und iPad. Nachdem Du Dich dort registriert hast, kannst Du dort einen API
 Schlüssel erzeigen, über den Du Benachrichtigungen an Dein Handy schicken kannst.
 Die URL für Robotan würde folgendermaßen aussehen:<BR>
-`http://api.prowlapp.com/publicapi/add?apikey=INSERT YOUR API KEY HERE&application=Robotan&event=`
+`http://api.prowlapp.com/publicapi/add?apikey=**HIER DEN API SCHLÜSSEL EINTRAGEN**&application=Robotan&event=`
 <BR>
 Beachte hierbei das Ende der URL: Der letzte Parameter ist "event=", woran 
 Robotan den Benachrichtigungsgrund anhängen wird, so dass die endgülgtige URL
 z.B. auf "event=Lift Error" enden könnte.
+
+
+<H4>Beispiel: Benachrichtigung über SimplePush (Android)</H4>
+
+<A HREF="http://www.simplepush.io">SimplePush</A> ist eine Benachrichtigungs App für
+Android Geräte. Nachdem Du die App installiert hast, bekommst Du einen Schlüssel
+angezeigt, über den Du Benachrichtigungen an Dein Handy schicken kannst.
+Die URL für Robotan würde folgendermaßen aussehen:<BR>
+`http://api.simplepush.io/send/**HIER DEN SCHLÜSSEL EINTRAGEN**/`
+<BR>
+Beachte hierbei das Ende der URL: Diese muss mit einem <code>/</code> hinter
+dem Schlüssel enden!
 
 <H4>Beispiel: E-Mail Versand über ein PHP Script</H4>
 
