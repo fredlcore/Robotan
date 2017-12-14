@@ -30,7 +30,11 @@ To remove the module, you have to remove two screws which fixate the module to t
 of the module (see blue arrows):
 <IMG SRC="img/5 - Locate Bluetooth module.jpg">
 
-Locate the empty serial port and insert the Robotan module:
+Locate the empty serial port and insert the Robotan module. If the module does
+not fit in your robot because other parts are standing in the way, you might
+want to use an <A HREF="https://www.reichelt.de/Adapter-Gender-Changer/DELOCK-65593/3/index.html?GROUPID=6062&ARTICLE=157596">adapter</A> and/or
+an <A HREF="https://www.reichelt.de/Sub-D-Kabel/DELOCK-84064/3/index.html?ARTICLE=179872&GROUPID=6082">extension cable</A>
+in order to connect the module properly.
 <IMG SRC="img/6 - Locate serial port.jpg">
 
 If you want, you can use the screws of the bluetooth module to also fixate the Robotan module:

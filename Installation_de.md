@@ -42,7 +42,10 @@ Mainboard fixieren. Sie befinden sich direkt unter den runden Löchern des Modul
 (siehe blaue Pfeile):
 <IMG SRC="img/5 - Locate Bluetooth module.jpg">
 
-Lokalisiere den leeren seriellen Anschluss und stecke das Robotan Board dort ein:
+Lokalisiere den leeren seriellen Anschluss und stecke das Robotan Board dort ein. 
+Wenn der serielle Anschluss bei Deinem Roboter ungünstig liegt und Gehäuseteile
+den Einbau des Moduls verhindern, wäre ggf. ein <A HREF="https://www.reichelt.de/Adapter-Gender-Changer/DELOCK-65593/3/index.html?GROUPID=6062&ARTICLE=157596">Winkeladapter</A>
+und/oder ein <A HREF="https://www.reichelt.de/Sub-D-Kabel/DELOCK-84064/3/index.html?ARTICLE=179872&GROUPID=6082">Verlängerungskabel</A> hilfreich.
 <IMG SRC="img/6 - Locate serial port.jpg">
 
 Wenn Du möchtest, kannst Du die Schrauben des Bluetooth Moduls dafür benutzen,
