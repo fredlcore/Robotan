@@ -27,4 +27,6 @@ Dann wie folgt vorgehen:
 
 5. Dann das Robotan Board auf den Wemos D1 Mini stecken. Dabei muss der serielle Stecker auf der selben Seite sein, wie der Micro-USB-Anschluss des Wemos D1 Mini.
 
+6. Wenn die Firmware per USB geflasht werden muss (was in der Regel nur bei der allerersten Installation der Fall ist), muss dafür das Board wieder vom Wemos gelöst werden. Bei allen Flash-Vorgängen über die Weboberfläche ist das nicht nötig.
+
 <H3>Fertig :-)!</H3>

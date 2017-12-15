@@ -29,4 +29,6 @@ To assemble the board, proceed as follows:
 5. Plug the Robotan board on top of the Wemos D1 Mini. The serial connector of the Robotan board must be on the same side as the Micro USB 
 connector of the Wemos D1 Mini.
 
+6. If you need to flash the firmware via USB, you have to unplug the board and the Wemos first. This usually only applies to the first flashing process, because afterwards you can use the web-based flashing feature which is not affected by this.
+
 <H3>Done :-)!</H3>
