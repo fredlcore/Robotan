@@ -40,9 +40,9 @@ the IP number you have used before.
 If you are asked for a login, the username is "Robotan" and the password is "Robotan88". 
 <BR><BR>
 <B>Please note: Each time you insert the Robotan board into your robot, 
-you will be asked for a PIN password on your robot.</B> This is the PIN
-you have assigned your robot during setup and is by default 0000.<BR>
-<B>Unless the robot is authenticated, you won't be able to control it!</B>
+you will be asked for a PIN password on your robot.</B> <BR>
+This is the PIN you have assigned your robot during setup and is by default 0000.<BR>
+<B>Unless the robot is authenticated, you won't be able to control it!</B><BR>
 In case you do not enter the PIN quickly enough, you might have to turn the 
 robot off and on again, as it checks for authentication soon after powering on.
 

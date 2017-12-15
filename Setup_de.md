@@ -58,11 +58,11 @@ Wenn Du nach Zugangsdaten gefragt wirst, lautet der Benutzername <code>Robotan</
 und das Passwort <code>Robotan88</code>.
 <BR><BR>
 <B>Bitte beachte: Jedes Mal, wenn das Robotan Board in Deinem Mähroboter
-eingesteckt wird, fragt der Mäher nach einem PIN Passwort!</B> Das ist die PIN, die
-bei Installation des Mähers im Setup eingegeben wurde und ist standardmäßig
-0000.<BR>
-<B>Ohne die Eingabe der PIN kann der Roboter nicht gesteuert werden!</B> Falls
-die PIN nicht schnell genug nach dem Start eingegeben wurde, muss der Roboter
+eingesteckt wird, fragt der Mäher nach einem PIN Passwort!</B> <BR>
+Das ist die PIN, die bei Installation des Mähers im Setup eingegeben wurde und 
+ist standardmäßig 0000.<BR>
+<B>Ohne die Eingabe der PIN kann der Roboter nicht gesteuert werden!</B> <BR>
+Falls die PIN nicht schnell genug nach dem Start eingegeben wurde, muss der Roboter
 noch einmal aus- und wieder angeschaltet werden, um beim Hochfahren den neuen
 Status zu erkennen. eine erneute PIN-Eingabe ist dann i.d.R. nicht mehr nötig.
 <H3>Fertig :-)!</H3>
