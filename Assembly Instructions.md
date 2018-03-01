@@ -8,6 +8,7 @@ To assemble the Robotan board, you'll need the <A HREF="schematics">plain board<
 <LI>1 x MAX 3232 CPE DIP 16 RS232/TTL converter
 <LI>1 x 9 pin male serial connector
 <LI>5 x 0.1µF capacitators
+<LI>1 x 220µF capacitator
 <LI>2 x 8 pin header
 <LI>2 x 8 pin socket
   </UL>
@@ -20,15 +21,18 @@ To assemble the board, proceed as follows:
 
 1. Solder the MAX 3232 CPE on the board.
 
-2. Solder the five capacitators on the board
+2. Solder the five 0.1µF capacitators on the board at the designated spots
 
-3. Solder the two 8 pin sockets to the Wemos D1 mini and the two 8 pin headers on the Robotan board.
+3. Solder the 220µF capacitator  between 5V and G(ND) on the board - watch the polarity! Afterwards, bend the capacitator down, as shown in the photo below.
 
-4. Solder the serial connector to the board. You might have to bend the two adjacent capacitators a bit.
+4. Solder the two 8 pin sockets to the Wemos D1 mini and the two 8 pin headers on the Robotan board.
 
-5. Plug the Robotan board on top of the Wemos D1 Mini. The serial connector of the Robotan board must be on the same side as the Micro USB 
+5. Solder the serial connector to the board. You might have to bend the two adjacent capacitators a bit.
+
+6. Plug the Robotan board on top of the Wemos D1 Mini. The serial connector of the Robotan board must be on the same side as the Micro USB 
 connector of the Wemos D1 Mini.
 
-6. If you need to flash the firmware via USB, you have to unplug the board and the Wemos first. This usually only applies to the first flashing process, because afterwards you can use the web-based flashing feature which is not affected by this.
+7. If you need to flash the firmware via USB, you have to unplug the board and the Wemos first. This usually only applies to the first flashing process, because afterwards you can use the web-based flashing feature which is not affected by this.
 
 <H3>Done :-)!</H3>
+<IMG SRC="img/Robotan-Board-Final.jpg">
