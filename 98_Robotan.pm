@@ -13,7 +13,7 @@ sub Robotan_Initialize($) {
   $hash->{NotifyFn} = "Robotan_Notify";
   $hash->{SetFn}     = "Robotan_Set";
   $hash->{DefFn}     = "Robotan_Define";
-  $hash->{AttrList}  = "Mow_Today " . $readingFnAttributes;
+  $hash->{AttrList}  = "General_Mowing_Days General_Border_Mowing_Days " .$readingFnAttributes;
   $hash->{FW_deviceOverview} = 1;
 
   RemoveInternalTimer($hash);
@@ -81,11 +81,9 @@ sub Robotan_Set($$@) {
 
   Log 3, "$name: setting " . $cmd . " to '" . $params[0]. "'";
 
-  if ($cmd eq "Mow_Today" || $cmd eq "General_Mowing_Days" || $cmd eq "General_Border_Mowing_Days") {
-    if ($cmd ne "Mow_Today") {
-      return undef;
-    }
+  if ($cmd eq "General_Mowing_Days" || $cmd eq "General_Border_Mowing_Days") {
     $attr{$name}{$cmd} = $params[0];
+    return undef;
   }
 
   my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
@@ -95,7 +93,7 @@ sub Robotan_Set($$@) {
     }
     my $gmd = $attr{$name}{General_Mowing_Days};
     $gmd =~ s/$wday//;
-    $gmd =~ s/,,//;
+    $gmd =~ s/,,/,/;
     if ($params[0] eq "1") {
       $gmd .= ",$wday";
     }
@@ -229,8 +227,7 @@ sub Robotan_Parse($$$) {
   readingsEndUpdate($hash,1);
 
   if (!$attr{$name}{General_Mowing_Days}) {
-    $attr{$name}{General_Mowing_Days} = ReadingsVal($name, 'Mowing_Days', '127');
-    my $gmd = $attr{$name}{General_Mowing_Days};
+    my $gmd = ReadingsVal($name, 'Mowing_Days', '');
     my $days = "";
     for (my $x=0; $x<8; $x++) {
       if (($gmd & 2**$x) > 0) {
@@ -238,11 +235,12 @@ sub Robotan_Parse($$$) {
       }
     }
     chop ($days);
-    $attr{$name}{General_Mowing_Days} = $days;
+    if ($days gt " ") {
+      $attr{$name}{General_Mowing_Days} = $days;
+    }
   }
   if (!$attr{$name}{General_Border_Mowing_Days}) {
-    $attr{$name}{General_Border_Mowing_Days} = ReadingsVal($name, 'Border_Mowing_Days', '0');
-    my $gbmd = $attr{$name}{General_Border_Mowing_Days};
+    my $gbmd = ReadingsVal($name, 'Border_Mowing_Days', '');
     my $days = "";
     if ($gbmd gt "") {
       for (my $x=0; $x<8; $x++) {
@@ -252,6 +250,9 @@ sub Robotan_Parse($$$) {
       }
     }
     chop ($days);
+    if ($days lt "0") {
+      $days = "0";
+    }
     $attr{$name}{General_Border_Mowing_Days} = $days;
   }
 }
