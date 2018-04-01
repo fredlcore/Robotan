@@ -24,7 +24,7 @@ ONE X V10
 ONE XH V10  
 ONE XK V15  
 RUNNER L XE  
-RUNNER L XH  
+RUNNER L XH - CONFIRMED (might need serial extension cable due to space constraints)  
 RUNNER L XK  
 RUNNER S  
 RUNNER SH  
@@ -85,7 +85,7 @@ Stiga Autoclip 328S
 Stiga Autoclip 520  
 Stiga Autoclip 522  
 Stiga Autoclip 523/525  
-Stiga Autoclip 524S  
+Stiga Autoclip 524S - CONFIRMED (might need serial extension cable due to space constraints)  
 Stiga Autoclip 527  
 Stiga Autoclip 527S  
 Stiga Autoclip 720S  
