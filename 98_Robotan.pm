@@ -284,20 +284,20 @@ sub Robotan_Set($$@) {
   }
 
   if ($cmd eq "Start_Time_1") {
-    $param_nr=40;
+    $param_nr=22;
   }
   if ($cmd eq "End_Time_1") {
-    $param_nr=41;
+    $param_nr=23;
   }
   if ($cmd eq "Mowing_Days") {
-    $param_nr=38;
+    $param_nr=20;
     if ($params[0] lt "1") {
       Log3 $name, 3, "$name: cannot set empty mowing days ($params[0])!";
       return undef;
     }
   }
   if ($cmd eq "Border_Mowing_Days") {
-    $param_nr=39;
+    $param_nr=21;
   }
 
   $params[0]="" unless defined $params[0];

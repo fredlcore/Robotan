@@ -6,7 +6,7 @@ Alpina
 
 Alpina AR-1 500  
 Alpina AR-2-1200  
-Alpina AR-2-600 - CONFIRMED (might need serial extension cable due to space constraints)  
+Alpina AR-2-600 - CONFIRMED, currently steering only (might need serial extension cable due to space constraints)  
   
 Herkules Wiper
 
@@ -17,14 +17,14 @@ CIIKY XH
 CIIKY XH2 - CONFIRMED  
 CIIKY XK  
 JOY X  
-JOY XE - CONFIRMED (might need serial extension cable due to space constraints)  
+JOY XE - CONFIRMED, currently steering only (might need serial extension cable due to space constraints)  
 JOY XH  
 JOY XK  
 ONE X V10  
 ONE XH V10  
 ONE XK V15  
 RUNNER L XE  
-RUNNER L XH - CONFIRMED (might need serial extension cable due to space constraints)  
+RUNNER L XH - CONFIRMED. currently steering only (might need serial extension cable due to space constraints)  
 RUNNER L XK  
 RUNNER S  
 RUNNER SH  
@@ -60,7 +60,7 @@ L75 Deluxe
 L75 Elite  
 L75 Evolution  
 L85 Basic  
-L85 Deluxe - CONFIRMED (might need serial extension cable due to space constraints)  
+L85 Deluxe - CONFIRMED, currently steering only (might need serial extension cable due to space constraints)  
 L85 Elite V5  
 L85 Evolution V5  
 
@@ -72,7 +72,7 @@ R50 AC
 
 Stiga
 
-Stiga Autoclip 125 - CONFIRMED (might need serial extension cable due to space constraints)  
+Stiga Autoclip 125 - CONFIRMED, currently steering only (might need serial extension cable due to space constraints)  
 Stiga Autoclip 127  
 Stiga Autoclip 140  
 Stiga Autoclip 145  
@@ -85,7 +85,7 @@ Stiga Autoclip 328S
 Stiga Autoclip 520  
 Stiga Autoclip 522  
 Stiga Autoclip 523/525  
-Stiga Autoclip 524S - CONFIRMED (might need serial extension cable due to space constraints)  
+Stiga Autoclip 524S - CONFIRMED, currently steering only (might need serial extension cable due to space constraints)  
 Stiga Autoclip 527  
 Stiga Autoclip 527S  
 Stiga Autoclip 720S  

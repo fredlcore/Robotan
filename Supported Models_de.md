@@ -1,7 +1,7 @@
 Die folgenden Rasenmähroboter SOLLTEN mit dem Robotan Board funktionieren,
 da sie alle die gleiche App verwenden.  
 Jedoch nur die Roboter, die als "CONFIRMED" markiert wurden, sind im richtigen
-Leben mit dem Robotan Board getestet wrde.  
+Leben mit dem Robotan Board getestet worden.  
 Wenn Du Robotan in einem der noch nicht als "CONFIRMED" markierten Roboter
 getestet hast, informiere mich bitte unter robotan (ät) code-it.de
 
@@ -9,7 +9,7 @@ Alpina
 
 Alpina AR-1 500  
 Alpina AR-2-1200  
-Alpina AR-2-600 - CONFIRMED (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
+Alpina AR-2-600 - CONFIRMED, z.Zt. nur Steuerung (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
 
 Herkules Wiper
 
@@ -20,14 +20,14 @@ CIIKY XH
 CIIKY XH2 - CONFIRMED  
 CIIKY XK  
 JOY X  
-JOY XE - CONFIRMED (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
+JOY XE - CONFIRMED, z.Zt. nur Steuerung (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
 JOY XH  
 JOY XK  
 ONE X V10  
 ONE XH V10  
 ONE XK V15  
 RUNNER L XE  
-RUNNER L XH - CONFIRMED (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
+RUNNER L XH - CONFIRMED, z.Zt. nur Steuerung (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
 RUNNER L XK  
 RUNNER S  
 RUNNER SH  
@@ -63,8 +63,8 @@ L75 Deluxe
 L75 Elite  
 L75 Evolution  
 L85 Basic  
-L85 Deluxe - CONFIRMED (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
-L85 Elite V5  
+L85 Deluxe - CONFIRMED, z.Zt. nur Steuerung (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
+L85 Elite V5 - CONFIRMED, z.Zt. nur Steuerung  
 L85 Evolution V5  
 
 Wolf
@@ -75,7 +75,7 @@ R50 AC
 
 Stiga
 
-Stiga Autoclip 125 - CONFIRMED (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
+Stiga Autoclip 125 - CONFIRMED, z.Zt. nur Steuerung (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
 Stiga Autoclip 127  
 Stiga Autoclip 140  
 Stiga Autoclip 145  
@@ -84,11 +84,11 @@ Stiga Autoclip 225S
 Stiga Autoclip 228S - CONFIRMED  
 Stiga Autoclip 230S  
 Stiga Autoclip 325  
-Stiga Autoclip 328S  
+Stiga Autoclip 328S - CONFIRMED, z.Zt. nur Steuerung  
 Stiga Autoclip 520  
 Stiga Autoclip 522  
 Stiga Autoclip 523/525  
-Stiga Autoclip 524S - CONFIRMED (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
+Stiga Autoclip 524S - CONFIRMED, z.Zt. nur Steuerung (benötigt aus Platzgründen ggf. serielles Verlängerungskabel)  
 Stiga Autoclip 527  
 Stiga Autoclip 527S  
 Stiga Autoclip 720S  
