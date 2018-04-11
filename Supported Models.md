@@ -2,11 +2,13 @@ The following lawn robots SHOULD be supported as they all use the same app.
 However, only those marked as "CONFIRMED" have already been tested in real life. 
 If you have successfully used Robotan in one of the robots which are not yet confirmed, please let me know at robotan (ät) code-it.de
 
-Alpina
-
-Alpina AR-1 500  
-Alpina AR-2-1200  
-Alpina AR-2-600 - CONFIRMED, currently steering only (might need serial extension cable due to space constraints)  
+|Model|Steering|Configuration|Extension cable recommended|
+|:----|:------:|:-----------:|:-------------------------:|
+|**Alpina**|
+||
+|Alpina AR-1 500|  
+|Alpina AR-2-1200|  
+|Alpina AR-2-600|X||X|
   
 Herkules Wiper
 
