@@ -61,7 +61,7 @@ If you have successfully used Robotan in one of the robots which are not yet con
 |L75 Deluxe|  
 |L75 Elite|  
 L75 Evolution|  
-|L85 Basic|c  
+|L85 Basic|  
 |L85 Deluxe|X||X|
 |L85 Elite V5|  
 |L85 Evolution V5|  

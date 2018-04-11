@@ -63,7 +63,7 @@ verwendest, informiere mich bitte unter robotan (ät) code-it.de
 |L75 Deluxe|  
 |L75 Elite|  
 L75 Evolution|  
-|L85 Basic|c  
+|L85 Basic|  
 |L85 Deluxe|X||X|
 |L85 Elite V5|  
 |L85 Evolution V5|  
