@@ -10,7 +10,7 @@ If you have successfully used Robotan in one of the robots which are not yet con
 |Alpina AR-2-1200|  
 |Alpina AR-2-600|X||X|
 ||
-|*Herkules Wiper*|
+|**Herkules Wiper**|
 ||
 |BLITZ X/XE|  
 |BLITZ XK|  
@@ -75,21 +75,21 @@ L75 Evolution|
 |**Stiga**|
 ||
 |Stiga Autoclip 125|X||X|
-|Stiga Autoclip 127  
-|Stiga Autoclip 140  
-|Stiga Autoclip 145  
-|Stiga Autoclip 223  
-|Stiga Autoclip 225S  
+|Stiga Autoclip 127|  
+|Stiga Autoclip 140|  
+|Stiga Autoclip 145|  
+|Stiga Autoclip 223|  
+|Stiga Autoclip 225S|  
 |Stiga Autoclip 228S|X|X||  
-|Stiga Autoclip 230S  
-|Stiga Autoclip 325  
-|Stiga Autoclip 328S  
-|Stiga Autoclip 520  
-|Stiga Autoclip 522  
-|Stiga Autoclip 523/525  
+|Stiga Autoclip 230S|  
+|Stiga Autoclip 325|  
+|Stiga Autoclip 328S|  
+|Stiga Autoclip 520|  
+|Stiga Autoclip 522|  
+|Stiga Autoclip 523/525|  
 |Stiga Autoclip 524S|X||X|
-|Stiga Autoclip 527  
-|Stiga Autoclip 527S  
-|Stiga Autoclip 720S  
-|<Stiga Autoclip 920S  
+|Stiga Autoclip 527|  
+|Stiga Autoclip 527S|  
+|Stiga Autoclip 720S|  
+|Stiga Autoclip 920S|  
 
