@@ -1,5 +1,5 @@
-The following lawn robots SHOULD be supported as they all use the same app.  
-However, only those marked as "CONFIRMED" have already been tested in real life. 
+The following lawn robots SHOULD be supported in general as they all use the same app.  
+However, only those functions marked with an "X" have already been tested in real life. 
 If you have successfully used Robotan in one of the robots which are not yet confirmed, please let me know at robotan (ät) code-it.de
 
 |Model|Steering|Configuration|Extension cable recommended|
@@ -9,34 +9,34 @@ If you have successfully used Robotan in one of the robots which are not yet con
 |Alpina AR-1 500|  
 |Alpina AR-2-1200|  
 |Alpina AR-2-600|X||X|
-  
-Herkules Wiper
-
-BLITZ X/XE  
-BLITZ XK  
-CIIKY XE  
-CIIKY XH  
-CIIKY XH2 - CONFIRMED  
-CIIKY XK  
-JOY X  
-JOY XE - CONFIRMED, currently steering only (might need serial extension cable due to space constraints)  
-JOY XH  
-JOY XK  
-ONE X V10  
-ONE XH V10  
-ONE XK V15  
-RUNNER L XE  
-RUNNER L XH - CONFIRMED. currently steering only (might need serial extension cable due to space constraints)  
-RUNNER L XK  
-RUNNER S  
-RUNNER SH  
-RUNNER X  
-RUNNER XE  
-RUNNER XH  
-RUNNER XK  
-
-Ambrogio
-
+||
+|*Herkules Wiper*|
+||
+|BLITZ X/XE|  
+|BLITZ XK|  
+|CIIKY XE|  
+|CIIKY XH|  
+|CIIKY XH2|X|X||
+|CIIKY XK|  
+|JOY X|  
+|JOY XE|X||X|
+|JOY XH|  
+|JOY XK|  
+|ONE X V10|  
+|ONE XH V10|  
+|ONE XK V15|  
+|RUNNER L XE|  
+|RUNNER L XH|X||X|
+|RUNNER L XK|  
+|RUNNER S|  
+|RUNNER SH|  
+|RUNNER X|  
+|RUNNER XE|  
+|RUNNER XH|  
+|RUNNER XK|  
+||
+|**Ambrogio**|
+||
 L200 Basic  
 L200 Deluxe  
 L200 Elite  
