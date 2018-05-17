@@ -17,7 +17,7 @@ entsprechenden Infos nachtragen kann.
 ||
 |Alpina AR-1 500|X|X|?|  
 |Alpina AR-2-1200|X||?|  
-|Alpina AR-2-600|X||X|?|
+|Alpina AR-2-600|X|X|?|
 ||
 |**Herkules Wiper**|
 ||
@@ -26,6 +26,7 @@ entsprechenden Infos nachtragen kann.
 |CIIKY XE|X|X|?|  
 |CIIKY XH|X|X|?|  
 |CIIKY XH2|X|X||
+|CIIKY XHN|X|X||
 |CIIKY XK|X|X|?|  
 |JOY X|X||?|
 |JOY XE|X||X|

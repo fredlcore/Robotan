@@ -122,8 +122,8 @@ sub Robotan_ParseStatus($$) {
     my $value = $decoded->{$p}{value};
     $reading =~ s/ /_/g;
 
-    if ($reading eq "Authenticated") {
-      if ($value eq "1") {
+    if ($reading eq "Functionality") {
+      if ($value gt "0") {
         readingsBulkUpdate($hash, "state", "authenticated");
       } else {
         readingsBulkUpdate($hash, "state", "not authenticated");
@@ -328,6 +328,7 @@ sub Robotan_EvalHttp ($$$) {
     readingsSingleUpdate($hash, "state", "error", 1);
     $hash->{LAST_ERROR_MSG} = "$err";
     $hash->{LAST_ERROR_TIME} = localtime(gettimeofday);
+    Log3 $name, 3, "$err";
   }
   $hash->{LAST_HTTP_CODE} = $param->{code};
   $hash->{LAST_PATH} = $param->{path};
