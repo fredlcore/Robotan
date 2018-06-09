@@ -11,7 +11,7 @@ To assemble the Robotan board, you'll need the <A HREF="schematics">plain board<
 <LI>1 x 220µF capacitator
 <LI>2 x 8 pin header
 <LI>2 x 8 pin socket
-<LI>optionall<: 1 x HC-05 Bluetooth module
+<LI>optionally: 1 x HC-05 Bluetooth module (HC-06 also works)
   </UL>
 Except for the Wemos D1 Mini and the HC-05 Bluetooth module, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.  
 <BR>
@@ -38,6 +38,8 @@ connector of the Wemos D1 Mini.
 8. If you want to add the HC-05 Bluetooth module, you can solder the pins one to one as shown in the image at the bottom of this page. 
 
 <H3>Done :-)!</H3>
+Position of the capacitator:<BR>
 <IMG SRC="img/Robotan-Board-Final.jpg">
 <BR><BR>
+Position of the Bluetooth module:<BR>
 <IMG SRC="img/8 - Adding Bluetooth module.jpg">
