@@ -82,14 +82,14 @@ If you have successfully used Robotan in one of the robots which are not yet con
 |L400i Deluxe|X|X|?|
 |L50 Basic/Deluxe|X||?|  
 |L50 Evolution|X||?|
-|L75 Basic|X||?|
-|L75 Deluxe|X||?|
-|L75 Elite|X||?|
-L75 Evolution|X||?|
-|L85 Basic|X||?|
+|L75 Basic|X||X|
+|L75 Deluxe|X||X|
+|L75 Elite|X||X|
+L75 Evolution|X||X|
+|L85 Basic|X||X|
 |L85 Deluxe|X||X|
-|L85 Elite V5|X||?|
-|L85 Evolution V5|X||?| 
+|L85 Elite V5|X||X|
+|L85 Evolution V5|X||X| 
 ||
 |**Wolf**|
 ||
