@@ -11,8 +11,9 @@ To assemble the Robotan board, you'll need the <A HREF="schematics">plain board<
 <LI>1 x 220µF capacitator
 <LI>2 x 8 pin header
 <LI>2 x 8 pin socket
+<LI>optionall<: 1 x HC-05 Bluetooth module
   </UL>
-Except for the Wemos D1 Mini, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.  
+Except for the Wemos D1 Mini and the HC-05 Bluetooth module, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.  
 <BR>
 Some boards from a collective order are still available. Contact robotan (ät) code-it.de if you are interested (German or English).
 <BR><BR>
@@ -34,5 +35,9 @@ connector of the Wemos D1 Mini.
 
 7. If you need to flash the firmware via USB, you have to unplug the board and the Wemos first. This usually only applies to the first flashing process, because afterwards you can use the web-based flashing feature which is not affected by this.
 
+8. If you want to add the HC-05 Bluetooth module, you can solder the pins one to one as shown in the image at the bottom of this page. 
+
 <H3>Done :-)!</H3>
 <IMG SRC="img/Robotan-Board-Final.jpg">
+<BR><BR>
+<IMG SRC="img/8 - Adding Bluetooth module.jpg">
