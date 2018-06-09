@@ -35,7 +35,7 @@ connector of the Wemos D1 Mini.
 
 7. If you need to flash the firmware via USB, you have to unplug the board and the Wemos first. This usually only applies to the first flashing process, because afterwards you can use the web-based flashing feature which is not affected by this.
 
-8. If you want to add the HC-05 Bluetooth module, you can solder the pins one to one as shown in the image at the bottom of this page. 
+8. If you want to add the HC-05 Bluetooth module, you can solder the pins one to one as shown in the image at the bottom of this page. Just make sure that 5V of the module connect to 5V of the Robotan board, then the rest should fit. For modules with six pins, make sure you only connect the four center ones (5V, GND, RX and TX)!
 
 <H3>Done :-)!</H3>
 Position of the capacitator:<BR>
