@@ -12,8 +12,9 @@ Um das Robotan Board zusammenzubauen, benötigt man das
 <LI>1 x 220µF Kondensator
 <LI>2 x 8 Pin Steckerleiste
 <LI>2 x 8 Pin Buchsenleiste
+<LI>optional: 1 x HC-05 Bluetooth Modul (HC-06 auch möglich)
   </UL>
-Außer dem Wemos D1 Mini finden sich alle Bauteile in dieser Liste bei <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.
+Außer dem Wemos D1 Mini und dem Bluetooth-Modul finden sich alle Bauteile in dieser Liste bei <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.
 
 Dann wie folgt vorgehen:
 <BR>
@@ -32,5 +33,12 @@ Dann wie folgt vorgehen:
 
 7. Wenn die Firmware per USB geflasht werden muss (was in der Regel nur bei der allerersten Installation der Fall ist), muss dafür das Board wieder vom Wemos gelöst werden. Bei allen Flash-Vorgängen über die Weboberfläche ist das nicht nötig.
 
+8. Das optionale Bluetooth-Modul kann eins-zu-eins an das Robotan-Modul angelötet werden. Man muss nur darauf achten, dass der 5V-Pin des Moduls auf die 5V der Platine gehen.
+
 <H3>Fertig :-)!</H3>
+Position des Kondensators:<BR>
 <IMG SRC="img/Robotan-Board-Final.jpg">
+<BR><BR>
+Position des Bluetooth-Moduls:<BR>
+<IMG SRC="img/8 - Adding Bluetooth module.jpg">
+
