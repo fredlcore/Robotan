@@ -10,8 +10,25 @@ Passwort?</H3>
 <H3>Ich möchte die Robotan webseite aufrufen, wie lauten die Zugangsdaten?</H3>
   Username: <code>Robotan</code>  <BR>
 Password: <code>Robotan88</code>
-  <H3>Warum ist der Sourcecode für Robotan nicht verfügbar?</H3>
-  Wie Du bei meinen anderen Projekten sehen kannst, bin ich ein Unterstützer
+<H3>Kann ich mit Robotan die Firmware meines Mähers updaten?</H3>
+Nein, leider nicht. Aber mit dem Anschluss eines Bluetooth-Moduls 
+(HC-05 oder HC-06, weniger als 10 Euro), kann Robotan als Bluetooth-Gerät
+agieren, das von Android-Geräten erkannt wird, von dem aus man dann mit der
+entsprechenden App ein Update ausführen kann.<BR>
+Bitte beachte, dass dies leider nicht mit iOS-Geräten funktioniert, weil
+Apple es erfordert, dass alle Bluetooth-Geräte vorher lizenziert werden. 
+Und das ist bei diesen Standard-Modulen nicht der Fall.
+<H3>Wie muss ich das Bluetooth-Modul konfigurieren?<H3>
+Das Modul muss auf 38400bps, 8 Datenbits, 1 Stoppbit und keine Parität 
+konfiguriert werden. Der Bluetooth PIN-Code muss auf 0000 gesetzt sein.<BR>
+Wenn Du das Modul installierst und die RobotanBT.ino auf dem Wemos D1 
+aufspielst, sollte das Modul richtig konfiguriert werden.<BR>
+Bitte beachte, dass das Bluetooth-Modul im Programmiermodus sein muss. Dafür
+muss man je nach Modul entweder beim Einschalten einen Microschalter drücken
+oder zwei Pins kurzschließen. Genauere Infos dazu stehen in der Anleitung zu
+dem jeweiligen Modul.
+<H3>Warum ist der Sourcecode für Robotan nicht verfügbar?</H3>
+Wie Du bei meinen anderen Projekten sehen kannst, bin ich ein Unterstützer
 der Open Source Philsophie. Für dieses Projekt musste ich aber herausfinden,
 wie die App und der Roboter miteinander kommunizieren. Das ist legal
 (zumindest hier in Deutschland), aber es ist möglicherweise nicht legal der Welt
