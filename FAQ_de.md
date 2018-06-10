@@ -18,7 +18,7 @@ entsprechenden App ein Update ausführen kann.<BR>
 Bitte beachte, dass dies leider nicht mit iOS-Geräten funktioniert, weil
 Apple es erfordert, dass alle Bluetooth-Geräte vorher lizenziert werden. 
 Und das ist bei diesen Standard-Modulen nicht der Fall.
-<H3>Wie muss ich das Bluetooth-Modul konfigurieren?<H3>
+<H3>Wie muss ich das Bluetooth-Modul konfigurieren?</H3>
 Das Modul muss auf 38400bps, 8 Datenbits, 1 Stoppbit und keine Parität 
 konfiguriert werden. Der Bluetooth PIN-Code muss auf 0000 gesetzt sein.<BR>
 Wenn Du das Modul installierst und die RobotanBT.ino auf dem Wemos D1 
@@ -38,5 +38,3 @@ mit etwas Programmierkenntnis ansehen würde, diese Information in kürzester
 Zeit bekommen würde.  
 Und da ich der Typ Mensch bin, die lieber auf Nummer sicher gehen, kann das 
 Kernprogramm der Robotan Software nur als Binär-Image heruntergeladen werden.
-
-

@@ -14,7 +14,5 @@ Please take note that this will unfortunately not work with iOS devices because 
 <H3>How do I need to configure the Bluetooth module?</H3>
 The device speed has to be set to 38400 bps, 8 data bits, 1 stop bit, no parity. The bluetooth PIN code must be set to 0000.<BR>
 If you install the module and run the provided RobotanBT.ino, it should configure the module for you. Please take note that you may have to put the module into programming mode by pressing a micro-switch or short-circuit two pins during powering up the module. Refer to the module's instructions for further details.
-<H3>Why is the source code of Robotan not available?</H3>
+<H3>Why is the source code of Robotan not available?</H3><BR>
 As you can see with my other projects, I'm a supporter of open source software. However, with this project, I had to figure out how the app and the robot communicate with each other. This is legal (at least here in Germany), but it may not be legal to tell the world how this protocol works. And this would be the case if I make the source code available, because everyone (with a little bit of programming knowledge) would be able to find out in no time. And as I'm the type of guy who rather is safe than sorry, the core Robotan program can only be downloaded as bin image.
-
-
