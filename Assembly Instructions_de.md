@@ -33,7 +33,20 @@ Dann wie folgt vorgehen:
 
 7. Wenn die Firmware per USB geflasht werden muss (was in der Regel nur bei der allerersten Installation der Fall ist), muss dafür das Board wieder vom Wemos gelöst werden. Bei allen Flash-Vorgängen über die Weboberfläche ist das nicht nötig.
 
-8. Das optionale Bluetooth-Modul kann eins-zu-eins an das Robotan-Modul angelötet werden. Man muss nur darauf achten, dass der 5V-Pin des Moduls auf die 5V der Platine gehen, dann sollte der Rest passen. Bei Modulen mit sechs Pins unbedingt darauf achten, dass nur die mittleren vier Pins (also 5V, GND, RX und TX) verbunden werden!
+8. Das optionale Bluetooth-Modul kann eins-zu-eins an das Robotan-Modul 
+angelötet werden (siehe Bild unten):
+5V <-> 5V  
+GND <-> G    
+TX <-> D4  
+RX <-> D3  
+Bei Modulen mit sechs Pins unbedingt darauf achten, dass nur die mittleren vier 
+Pins (also 5V, GND, RX und TX) verbunden werden!  
+Um das Bluetooth-Modul zu konfigurieren, bitte die entsprechende Anleitung
+zu Rate ziehen oder den `RobotanBT.ino` Sketch probieren, der das Modul im 
+Idealfall ebenfalls korrekt konfiguriert. Dazu muss das Modul in den Programmier-
+Modus versetzt werden. Dies geschieht beim Einschalten der Stromzufuhr des
+Moduls entweder durch das Kurzschließen der Pins 5V und EN oder durch Drücken 
+eines Microschalters.
 
 <H3>Fertig :-)!</H3>
 Position des Kondensators:<BR>

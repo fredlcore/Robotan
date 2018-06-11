@@ -21,7 +21,7 @@ Und das ist bei diesen Standard-Modulen nicht der Fall.
 <H3>Wie muss ich das Bluetooth-Modul konfigurieren?</H3>
 Das Modul muss auf 38400bps, 8 Datenbits, 1 Stoppbit und keine Parität 
 konfiguriert werden. Der Bluetooth PIN-Code muss auf 0000 gesetzt sein.<BR>
-Wenn Du das Modul installierst und die RobotanBT.ino auf dem Wemos D1 
+Wenn Du das Modul installierst und die <code>RobotanBT.ino</code> auf dem Wemos D1 
 aufspielst, sollte das Modul richtig konfiguriert werden.<BR>
 Bitte beachte, dass das Bluetooth-Modul im Programmiermodus sein muss. Dafür
 muss man je nach Modul entweder beim Einschalten einen Microschalter drücken
