@@ -34,7 +34,7 @@ Dann wie folgt vorgehen:
 7. Wenn die Firmware per USB geflasht werden muss (was in der Regel nur bei der allerersten Installation der Fall ist), muss dafür das Board wieder vom Wemos gelöst werden. Bei allen Flash-Vorgängen über die Weboberfläche ist das nicht nötig.
 
 8. Das optionale Bluetooth-Modul kann eins-zu-eins an das Robotan-Modul 
-angelötet werden (siehe Bild unten):
+angelötet werden (siehe Bild unten):  
 5V <-> 5V  
 GND <-> G    
 TX <-> D4  
