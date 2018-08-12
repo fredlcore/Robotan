@@ -17,7 +17,7 @@ Some screenshots:
 
 Web-based remote control:
 
-<IMG WIDTH=50% SRC="./img/web-based%20remote%20control.png">
+<IMG WIDTH=50% SRC="./img/web-based%20remote%20control.jpg">
 
 Web interface with configuration and status information:
 
