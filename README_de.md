@@ -16,7 +16,7 @@ Einige Screenshots:
 
 Web-basierte Fernsteuerung:
 
-<IMG WIDTH=50% SRC="./img/web-based%20remote%20control.png">
+<IMG WIDTH=50% SRC="./img/web-based%20remote%20control.jpg">
 
 Web-Interface mit Konfigurations- und Statusinformationen:
 
