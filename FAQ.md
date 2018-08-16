@@ -6,7 +6,7 @@ The following forum is currently used to discuss the development of Robotan and 
 <H3>I'm trying to connect to the "Robotan" WiFi network, what is the password?</H3>
   <code>Robotan88</code>
 <H3>I want to access the Robotan website, what is the username and password?</H3>  
-Unless you have specified your own credentials during installation, these are as follows:  
+Unless you have specified your own credentials during installation, these are as follows:  <BR>
 Username: <code>Robotan</code>  <BR>
 Password: <code>Robotan88</code>
 <H3>Can I update my robot firmware with Robotan?</H3>
