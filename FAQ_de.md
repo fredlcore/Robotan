@@ -7,8 +7,9 @@ Das folgende Forum ist momentan der Platz, um die Entwicklung von Robotan und
 <H3>Ich versuche mich, mit dem "Robotan" WLAN zu verbinden, wie lautet das
 Passwort?</H3>
   <code>Robotan88</code>
-<H3>Ich möchte die Robotan webseite aufrufen, wie lauten die Zugangsdaten?</H3>
-  Username: <code>Robotan</code>  <BR>
+<H3>Ich möchte die Robotan webseite aufrufen, wie lauten die Zugangsdaten?</H3>  
+Falls während der Installation keine individuellen Zugangsdaten konfiguriert wurden, lauten diese standardmäßig:  
+Username: <code>Robotan</code>  <BR>
 Password: <code>Robotan88</code>
 <H3>Kann ich mit Robotan die Firmware meines Mähers updaten?</H3>
 Nein, leider nicht. Aber mit dem Anschluss eines Bluetooth-Moduls 

@@ -5,8 +5,9 @@ The following forum is currently used to discuss the development of Robotan and 
   http://www.roboter-forum.com/showthread.php?24443-WLAN-Steuerung-f%FCr-Ambrogio-L30-und-baugleiche-Modelle-(Stiga-Wiper-Wolf)
 <H3>I'm trying to connect to the "Robotan" WiFi network, what is the password?</H3>
   <code>Robotan88</code>
-<H3>I want to access the Robotan website, what is the username and password?</H3>
-  Username: <code>Robotan</code>  <BR>
+<H3>I want to access the Robotan website, what is the username and password?</H3>  
+Unless you have specified your own credentials during installation, these are as follows:  
+Username: <code>Robotan</code>  <BR>
 Password: <code>Robotan88</code>
 <H3>Can I update my robot firmware with Robotan?</H3>
 No, unfortunately not. But with an added Bluetooth module (HC-05 or HC-06, less than 10 Euros), Robotan can act as a standard Bluetooth device that is discoverable by Android devices, and these can be used to update the robot's firmware.<BR>

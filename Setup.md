@@ -14,7 +14,11 @@ you have follow the following steps:
 <IMG SRC="img/ArduinoSettings.png">
 
 3. Connect the Wemos D1 with your computer via USB but WITHOUT THE ROBOTAN BOARD ATTACHED and flash the <A HREF="RobotanSetup.ino">RobotanSetup.ino</A>.  
-You may set individual credentials for your personal WiFi network (variables WLAN_local_SSID and WLAN_local_password) as well as for the username and password for the webinterface (variables http_username and http_password). These will then be stored in the module and be used instead of the default ones mentioned below.
+Before flashing, you may set individual credentials for your personal WiFi 
+network (variables WLAN_local_SSID and WLAN_local_password) as well as for the 
+username and password for the webinterface (variables http_username and 
+http_password). These will then be stored in the module and used instead of the 
+default ones mentioned below.
 
 4. Now a minimal browser-based firmware update program is installed on the Wemos D1 and you can proceed with the updating procedures explained below.
 

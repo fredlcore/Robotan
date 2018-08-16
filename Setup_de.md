@@ -20,10 +20,11 @@ werden:
 
 3. Verbinde den Wemos D1 über USB mit Deinem Computer ABER OHNE DAS ROBOTAN BOARD und flashe den Sketch
 <A HREF="RobotanSetup.ino">RobotanSetup.ino</A>.  
-Es können individuelle Zugangsdaten für das WLAN (Variablen WLAN_local_SSID und 
-WLAN_local_password) sowie für den Zugang zum Webinterface (Variablen 
-http_username und http_password) konfiguriert werden. Diese werden dann im 
-Modul gespeichert und anstatt der später beschriebenen Standardwerte verwendet.
+In dieser Datei können vorher noch bei Bedarf individuelle Zugangsdaten für das 
+WLAN (Variablen WLAN_local_SSID und WLAN_local_password) sowie für den Zugang 
+zum Webinterface (Variablen http_username und http_password) konfiguriert 
+werden. Diese werden dann im  Modul gespeichert und anstatt der später 
+beschriebenen Standardwerte verwendet.
 
 4. Danach ist eine minimale Browser-Upload Firmware auf dem Wemos D1 installiert 
 und Du kannst mit dem Update-Prozess wie folgt fortfahren.
