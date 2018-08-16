@@ -19,7 +19,11 @@ werden:
 <IMG SRC="img/ArduinoSettings.png">
 
 3. Verbinde den Wemos D1 über USB mit Deinem Computer ABER OHNE DAS ROBOTAN BOARD und flashe den Sketch
-<A HREF="RobotanSetup.ino">RobotanSetup.ino</A>.
+<A HREF="RobotanSetup.ino">RobotanSetup.ino</A>.  
+Es können individuelle Zugangsdaten für das WLAN (Variablen WLAN_local_SSID und 
+WLAN_local_password) sowie für den Zugang zum Webinterface (Variablen 
+http_username und http_password) konfiguriert werden. Diese werden dann im 
+Modul gespeichert und anstatt der später beschriebenen Standardwerte verwendet.
 
 4. Danach ist eine minimale Browser-Upload Firmware auf dem Wemos D1 installiert 
 und Du kannst mit dem Update-Prozess wie folgt fortfahren.
@@ -43,7 +47,7 @@ musst Du natürlich mit diesem Netzwerk verbunden sein.
 andernfalls ersetze die IP-Nummer mit der IP, die Robotan in Deinem WLAN 
 verwendet:  
 `http://192.168.4.1:8080/update`  
-Wenn Du nach Zugangsdaten gefragt wirst, lautet der Benutzername <code>Robotan</code> und das Passwort <code>Robotan88</code>.
+Wenn Du nach Zugangsdaten gefragt wirst, lautet der Benutzername <code>Robotan</code> und das Passwort <code>Robotan88</code>, es sei denn Du hast bei der Installation Deine eigenen Werte angegeben.
 
 4. Wähle im Browser-Upload die Robotan.ino.bin aus, die Du vorher heruntergeladen
 hast und klicke auf "Update".
@@ -55,7 +59,7 @@ hast, dass er Teil Deines WLANs ist, bleiben diese Einstellungen auch nach einem
 Update erhalten, so dass Du das Webinterface über die IP-Adresse aufrufen kannst,
 die Robotan in Deinem WLAN bekommen hat.<BR>
 Wenn Du nach Zugangsdaten gefragt wirst, lautet der Benutzername <code>Robotan</code>
-und das Passwort <code>Robotan88</code>.
+und das Passwort <code>Robotan88</code>, falls Du keine eigenen Werte bei der Installation angegeben hast..
 <BR><BR>
 <B>Bitte beachte: Jedes Mal, wenn das Robotan Board in Deinem Mähroboter
 eingesteckt wird, fragt der Mäher nach einem PIN Passwort!</B> <BR>
