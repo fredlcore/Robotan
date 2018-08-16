@@ -13,7 +13,8 @@ you have follow the following steps:
 2. In the Arduino IDE, set the following parameters in the "Tools" menu:
 <IMG SRC="img/ArduinoSettings.png">
 
-3. Connect the Wemos D1 with your computer via USB but WITHOUT THE ROBOTAN BOARD ATTACHED and flash the <A HREF="RobotanSetup.ino">RobotanSetup.ino</A>.
+3. Connect the Wemos D1 with your computer via USB but WITHOUT THE ROBOTAN BOARD ATTACHED and flash the <A HREF="RobotanSetup.ino">RobotanSetup.ino</A>.  
+You may set individual credentials for your personal WiFi network (variables WLAN_local_SSID and WLAN_local_password) as well as for the username and password for the webinterface (variables http_username and http_password). These will then be stored in the module and be used instead of the default ones mentioned below.
 
 4. Now a minimal browser-based firmware update program is installed on the Wemos D1 and you can proceed with the updating procedures explained below.
 
@@ -29,7 +30,7 @@ If you have configured Robotan to use your existing WiFi network, you have to be
 
 3. Open the following URL if you use the Robotan default WiFi, otherwise replace the IP number with the IP the Robotan has in your local WiFi network:  
 `http://192.168.4.1:8080/update`  
-If you are asked for a login, the username is "Robotan" and the password is "Robotan88". 
+If you are asked for a login, the defautl username is "Robotan" and the password is "Robotan88". If you have configured your own credentials, of course you have to use them instead. 
 
 4. Browse to the Robotan.ino.bin you have downloaded before and click "Update".
 
@@ -37,7 +38,7 @@ If you are asked for a login, the username is "Robotan" and the password is "Rob
 `http://192.168.4.1`.
 If you have cofigured Robotan to use your own WiFi network, these settings will still be there, so you can access the web interface via
 the IP number you have used before.  
-If you are asked for a login, the username is "Robotan" and the password is "Robotan88". 
+If you are asked for a login, the username is "Robotan" and the password is "Robotan88", unless you have configured your own individual username/password. 
 <BR><BR>
 <B>Please note: Each time you insert the Robotan board into your robot, 
 you will be asked for a PIN password on your robot.</B> <BR>
