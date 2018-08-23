@@ -8,12 +8,11 @@ Um diese Optionen zu konfigurieren, ruft man folgende Adresse auf:
   `http://192.168.4.1/config`
 <BR>
 Wenn Du nach Zugangsdaten gefragt wirst, gib <code>Robotan</code> als Benutzernmane
-und <code>Robotan88</code> als Passwort ein. Falls Robotan bereits mit Deinem
+und <code>Robotan88</code> als Passwort ein, wenn Du nicht bei der Installation Deine eigenen Zugangsdaten eingestellt hast. 
+Falls Robotan bereits mit Deinem
 WLAN-Netzwerk verbunden ist, musst Du die entsprechende IP-Adresse verwenden,
 die Robotan zugewiesen wurde, oder den Hostnamen <code>robotan</code> statt
 der IP-Adresse probieren.<BR>
-Wenn Du die Konfigurationsseite aufgerufen hast, finden sich die Optionen 
-unterhalb der Statusmeldungen.
 <H3>WLAN-Netzwerk konfigurieren</H3>
 Standardmäßig setzt Robotan sein eigenes WLAN-Netzwerk auf, das "Robotan" heißt 
 und das Passwort <code>Robotan88</code> hat. Wenn Du Robotan aus Deinem eigenen
@@ -90,3 +89,29 @@ einbinden:
 <BR>
 Dann klicke auf "Set URL" und Robotan wird jedes Mal, wenn ein Fehler auftritt,
 eine Benachrichtigung versenden.
+
+<H3>GPS-Funktionen konfigurieren</H3>
+Im Konfigurationsmenü gibt es folgende GPS-Funktionen:
+<LI>Enable GPS Logging</LI>
+Hiermit wird alle 10 Sekunden die GPS-Position in den Flash-Speicher des Robotan-
+Moduls geschrieben, bis die Größe 1 MByte übersteigt (nach ca. 2 Tagen). 
+Danach werden die Daten gelöscht und die Aufzeichnung beginnt von vorne. 
+Es gibt die Möglichkeit, die Daten als GPX-Datei herunterzuladen und sie in einem
+Dienst wie <A HREF="http://www.gpsvisualizer.com/map_input">GPS Visualizer"</A> 
+darstellen zu lassen.
+<LI>Enable GPS Stuck Detection</LI>
+Dies ist nützlich für ältere Roboter, bei denen keine Fehlermeldungen direkt 
+abgerufen werden können, z.B. wenn sich der Roboter festgefahren hat.
+Diese Funktion analyisert die (nie 100% genaue) GPS-Position des Roboters und 
+versucht zu erkennen, ob der Roboter stillsteht oder nicht. Die "Inaccuracy"-Einstellung
+kann helfen, Fehlalarme zu reduzieren, indem damit ein Radius festgelegt wird,
+innerhalb dessen eine Bewegung noch als "Stillstand" gerechnet wird (3-4 Meter können hier sinnvoll sein).
+Meldungen werden nur innerhalb der angegebenen Zeiten versendet. Bitte beachte,
+dass diese Zeiten in der UTC-Zeitzone eingegeben werden müssen, die im Sommer
+zwei Stunden hinter der Zeit in den meisten Staaten Mitteleuropas liegt.
+Die Position der Basis (Garage) kann angegeben werden, um zu verhindern, dass
+ein geparkter Roboter eine Warnmeldung erzeugt.
+<LI>Enable Geo-Fencing</LI>
+Hier können die äußeren Koordinaten des Grundstücks angegeben werden. Wenn sich
+der Roboter außerhalb dieser Koordinaten aufhält (z.B., weil er gerade gestohlen wird), dann wird eine Nachricht mit den momentanen Koordinaten versendet.
+Bitte beachten: Auch hier kann es durch GPS-Ungenauigkeiten zu Fehlermeldungen kommen, wenn die Grundstückskoordinaten exakt eingegeben werden.
