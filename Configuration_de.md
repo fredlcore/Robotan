@@ -98,7 +98,7 @@ Hiermit wird alle 10 Sekunden die GPS-Position in den Flash-Speicher des Robotan
 Moduls geschrieben, bis die Größe 1 MByte übersteigt (nach ca. 2 Tagen). 
 Danach werden die Daten gelöscht und die Aufzeichnung beginnt von vorne. 
 Es gibt die Möglichkeit, die Daten als GPX-Datei herunterzuladen und sie in einem
-Dienst wie <A HREF="http://www.gpsvisualizer.com/map_input">GPS Visualizer"</A> 
+Dienst wie <A HREF="http://www.gpsvisualizer.com/map_input">GPS Visualizer</A> 
 darstellen zu lassen.
 <LI>Enable GPS Stuck Detection</LI>
 Dies ist nützlich für ältere Roboter, bei denen keine Fehlermeldungen direkt 
