@@ -12,16 +12,16 @@ WLAN Steuerung für Zucchetti-basierte Rasenmähroboter (Ambrogio, Stiga, Herkul
 <H2><A HREF="Troubleshooting_de.md">Fehlersuche</A></H2>
 <H2><A HREF="FAQ_de.md">Häufig gestellte Fragen (FAQ)</A></H2>
 
-Einige Screenshots:  
+<B>Einige Screenshots:</B>  
 
-Web-basierte Fernsteuerung:
+<B>Web-basierte Fernsteuerung:</B>
 
 <IMG WIDTH=50% SRC="./img/web-based%20remote%20control.jpg">
 
-Web-Interface mit Konfigurations- und Statusinformationen:
+<B>Web-Interface mit Konfigurations- und Statusinformationen:</B>
 
 <IMG SRC="./img/web%20interface%20status%20configuration.jpg">
 
-Allgemeine Konfigurationsoptionen (inkl. GPS):
+<B>Allgemeine Konfigurationsoptionen (inkl. GPS):</B>
 
 <IMG SRC="./img/Configurations.png">

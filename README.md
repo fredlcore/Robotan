@@ -13,16 +13,16 @@ Some boards left over from a collective order are still available. Contact robot
 <H2><A HREF="Troubleshooting.md">Troubleshooting</A></H2>
 <H2><A HREF="FAQ.md">Frequently Asked Questions (FAQ)</A></H2>
 
-Some screenshots:  
+<B>Some screenshots:</B>  
 
-Web-based remote control:
+<B>Web-based remote control:</B>
 
 <IMG WIDTH=50% SRC="./img/web-based%20remote%20control.jpg">
 
-Web interface with configuration and status information:
+<B>Web interface with configuration and status information:</B>
 
 <IMG SRC="./img/web%20interface%20status%20configuration.jpg">
 
-General settings (incl. GPS):
+<B>General settings (incl. GPS):</B>
 
 <IMG SRC="./img/Configurations.png">
