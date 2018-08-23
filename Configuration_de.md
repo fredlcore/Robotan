@@ -92,6 +92,7 @@ eine Benachrichtigung versenden.
 
 <H3>GPS-Funktionen konfigurieren</H3>
 Im Konfigurationsmenü gibt es folgende GPS-Funktionen:
+<UL>
 <LI>Enable GPS Logging</LI>
 Hiermit wird alle 10 Sekunden die GPS-Position in den Flash-Speicher des Robotan-
 Moduls geschrieben, bis die Größe 1 MByte übersteigt (nach ca. 2 Tagen). 
@@ -115,3 +116,4 @@ ein geparkter Roboter eine Warnmeldung erzeugt.
 Hier können die äußeren Koordinaten des Grundstücks angegeben werden. Wenn sich
 der Roboter außerhalb dieser Koordinaten aufhält (z.B., weil er gerade gestohlen wird), dann wird eine Nachricht mit den momentanen Koordinaten versendet.
 Bitte beachten: Auch hier kann es durch GPS-Ungenauigkeiten zu Fehlermeldungen kommen, wenn die Grundstückskoordinaten exakt eingegeben werden.
+</UL>
