@@ -22,3 +22,7 @@ Web-based remote control:
 Web interface with configuration and status information:
 
 <IMG SRC="./img/web%20interface%20status%20configuration.jpg">
+
+General settings (incl. GPS):
+
+<IMG SRC="./img/Configuration.png">

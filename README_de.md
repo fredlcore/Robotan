@@ -21,3 +21,7 @@ Web-basierte Fernsteuerung:
 Web-Interface mit Konfigurations- und Statusinformationen:
 
 <IMG SRC="./img/web%20interface%20status%20configuration.jpg">
+
+Allgemeine Konfigurationsoptionen (inkl. GPS):
+
+<IMG SRC="./img/Configuration.png">
