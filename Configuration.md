@@ -54,10 +54,12 @@ Then click "Set URL" and Robotan will send out a notification each time an error
 
 <H3>Configuring GPS functions</H3>
 In the configuration menu, you have the following GPS-based options:  
-* Enable GPS logging  
+<UL>
+<LI>Enable GPS logging</LI>
 GPS logs will be saved every 10 seconds into the device's flash memory until the size exceeds 1 MByte after which it will automatically be deleted. You have the option to download the logs in GPX format to be displayed for example on sites like <A HREF="http://www.gpsvisualizer.com/map_input">GPS Visualizer</A>.
-* Enable GPS stuck detection
+<LI>Enable GPS stuck detection</LI>
 This is useful for older robots which do not provide access to the error messages, like when the robot is stuck. This function will evaluate the (not 100% accurate) GPS position of the robot and determine whether the robot is stuck or not. The inaccuracy radius may help to prevent false positives. Alerts will only be sent during start and end time. Please note that these times are based on the UTC timezone (which is in summer two hours behind the rest of central Europe.  
-The position of the base (garage) helps to prevent false positives when the robot is in the garage (and therefore looks as being 'stuck').
-* Enable geo-fencing
+The position of the base (garage) helps to prevent false positives when the robot is in the garage (and therefore looks as being 'stuck').<
+<LI>Enable geo-fencing</LI>
 You may provide coordinates of your garden here. Once the robot leaves these coordinates (e.g. because of theft) a message will be sent out with the current coordinates.
+</UL>
