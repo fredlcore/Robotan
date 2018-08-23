@@ -28,7 +28,7 @@ Robotan sein bereits erwähntes eigenes WLAN-Netzwerk "Robotan" aufspannen. Es
 wird allerdings alle fünf Minuten probieren, sich wieder mit Deinem WLAN-Netzwerk
 zu verbinden. Das gewährleistet, dass es sich wieder mit Deinem Netzwerk verbindet,
 selbst wenn das Signal in einer entfernten Ecke Deines Gartens verloren gegangen
-ist.  
+ist.<BR>  
 Es gibt auch die Möglichkeit, dem Robotan-Modul im Konfigurationsmenü eine feste IP-Adresse, sowie Gateway-, Subnet- und DNS-Adressen zu vergeben.
 <H3>Push Benachrichtigungen konfigurieren</H3>
 
