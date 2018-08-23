@@ -25,4 +25,4 @@ Web interface with configuration and status information:
 
 General settings (incl. GPS):
 
-<IMG SRC="./img/Configuration.png">
+<IMG SRC="./img/Configurations.png">

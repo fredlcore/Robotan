@@ -24,4 +24,4 @@ Web-Interface mit Konfigurations- und Statusinformationen:
 
 Allgemeine Konfigurationsoptionen (inkl. GPS):
 
-<IMG SRC="./img/Configuration.png">
+<IMG SRC="./img/Configurations.png">
