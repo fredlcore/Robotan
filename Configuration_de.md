@@ -1,5 +1,5 @@
 <H2>Robotan konfigurieren</H2>
-English version can be found <A HREF="Configuration_de.md">here</A>.
+English version can be found <A HREF="Configuration.md">here</A>.
 <BR><BR>
 Momentan gibt es zwei Optionen, die man für die Verwendung von Robotan konfigurieren
 kann: Die WLAN-Einstellungen und die Push-Benachrichtigungen.
@@ -28,8 +28,8 @@ Robotan sein bereits erwähntes eigenes WLAN-Netzwerk "Robotan" aufspannen. Es
 wird allerdings alle fünf Minuten probieren, sich wieder mit Deinem WLAN-Netzwerk
 zu verbinden. Das gewährleistet, dass es sich wieder mit Deinem Netzwerk verbindet,
 selbst wenn das Signal in einer entfernten Ecke Deines Gartens verloren gegangen
-ist.
-
+ist.  
+Es gibt auch die Möglichkeit, dem Robotan-Modul im Konfigurationsmenü eine feste IP-Adresse, sowie Gateway-, Subnet- und DNS-Adressen zu vergeben.
 <H3>Push Benachrichtigungen konfigurieren</H3>
 
 Robotan kann Dich benachrichten, falls der Roboter einen Fehler aufweist, z.B.
