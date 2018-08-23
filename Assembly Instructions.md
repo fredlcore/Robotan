@@ -12,8 +12,9 @@ To assemble the Robotan board, you'll need the <A HREF="schematics">plain board<
 <LI>2 x 8 pin header
 <LI>2 x 8 pin socket
 <LI>optionally: 1 x HC-05 Bluetooth module (HC-06 also works)
+<LI>optionally: 1 x u-blox NEO-6 GPS module (or compatible)
   </UL>
-Except for the Wemos D1 Mini and the HC-05 Bluetooth module, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.  
+Except for the Wemos D1 Mini, the HC-05 Bluetooth module and the u-blox GPS module, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.  
 <BR>
 Some boards from a collective order are still available. Contact robotan (ät) code-it.de if you are interested (German or English).
 <BR><BR>
@@ -35,8 +36,15 @@ connector of the Wemos D1 Mini.
 
 7. If you need to flash the firmware via USB, you have to unplug the board and the Wemos first. This usually only applies to the first flashing process, because afterwards you can use the web-based flashing feature which is not affected by this.
 
-8. If you want to add the HC-05 Bluetooth module, you can solder the pins one 
-to one (see image below):  
+8. If you want to add the u-blox GPS  module, you can solder the pins one 
+to one like this:  
+VCC <-> 3V3  
+GND <-> G  
+TX <-> D7  
+RX <-> D8 (used to configure the module, not yet supported)  
+
+9. If you want to add the HC-05 Bluetooth module, you can solder the pins one 
+to one like this (see also image below):  
 5V <-> 5V  
 GND <-> G  
 TX <-> D4  
