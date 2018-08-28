@@ -44,6 +44,8 @@ GND <-> G
 TX <-> D7  
 RX <-> D8 (used to configure the module, not yet supported)  
 
+If you connect the piezo buzzer to D2 (+) and GND (-), an SOS beep will turn on once the robot has left the permissible GPS coordinates.
+
 9. If you want to add the HC-05 Bluetooth module, you can solder the pins one 
 to one like this (see also image below):  
 5V <-> 5V  

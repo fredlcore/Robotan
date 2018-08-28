@@ -42,6 +42,8 @@ GND <-> G
 TX <-> D7  
 RX <-> D8 (zur Konfiguration des Moduls; bisher noch nicht unterstützt)  
 
+Wenn der Piezosummer mit Pin D2 (+) und GND (-) verbunden wird, ertönen SOS-Piepser, wenn sich der Roboter außerhalb der zulässigen GPS-Koordinaten befindet.
+
 8. Das optionale Bluetooth-Modul kann eins-zu-eins an das Robotan-Modul 
 angelötet werden (siehe auch Bild unten):  
 5V <-> 5V  
