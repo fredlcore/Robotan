@@ -9,11 +9,12 @@ Um das Robotan Board zusammenzubauen, benötigt man das
 <LI>1 x MAX 3232 CPE DIP 16 RS232/TTL Konverter
 <LI>1 x 9-poliger serieller Stecker (männlich)
 <LI>5 x 0.1µF Kondensatoren
-<LI>1 x 220µF Kondensator
+<LI>1 x 470µF Kondensator
 <LI>2 x 8 Pin Steckerleiste
 <LI>2 x 8 Pin Buchsenleiste
 <LI>optional: 1 x HC-05 Bluetooth Modul (HC-06 auch möglich)
 <LI>optional: 1 x u-blox NEO-6 GPS Modul (oder kompatibel)
+<LI>optional: 1 x Piezo Summer CPM 121 (für Alarmierung, wenn der Roboter außerhalb der zulässigen GPS-Koordinaten ist)
   </UL>
 Außer dem Wemos D1 Mini, dem GPS- und dem Bluetooth-Modul finden sich alle Bauteile in dieser Liste bei <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.
 

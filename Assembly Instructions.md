@@ -8,11 +8,12 @@ To assemble the Robotan board, you'll need the <A HREF="schematics">plain board<
 <LI>1 x MAX 3232 CPE DIP 16 RS232/TTL converter
 <LI>1 x 9 pin male serial connector
 <LI>5 x 0.1µF capacitators
-<LI>1 x 220µF capacitator
+<LI>1 x 470µF capacitator
 <LI>2 x 8 pin header
 <LI>2 x 8 pin socket
 <LI>optionally: 1 x HC-05 Bluetooth module (HC-06 also works)
 <LI>optionally: 1 x u-blox NEO-6 GPS module (or compatible)
+<LI>optionally: 1 x Piezo buzzer CPM 121 (for alarm beeps when robot is outside GPS boundaries)
   </UL>
 Except for the Wemos D1 Mini, the HC-05 Bluetooth module and the u-blox GPS module, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.  
 <BR>
