@@ -27,10 +27,6 @@ Some boards left over from a collective order are still available. Contact robot
 
 <IMG SRC="./img/Configurations.png">  
 
-<B>Screencapture of realtime robot movements:</B>  
+<B>Screencapture of realtime robot movements (new position polled every 10 seconds):</B>  
 
-<video width="320" height="240" controls>
-  <source src="./img/Robot-Realtime-Position.mp4?raw=true" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<A HREF="./img/Robot-Realtime-Position.mp4?raw=true">Download video (10 MB)</A>  
+<A HREF="./img/Robot-Realtime-Position.mp4?raw=true">Watch video (1:05 min, 10 MB)</A>  

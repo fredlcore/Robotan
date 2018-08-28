@@ -26,6 +26,6 @@ WLAN Steuerung für Zucchetti-basierte Rasenmähroboter (Ambrogio, Stiga, Herkul
 
 <IMG SRC="./img/Configurations.png">  
 
-<B>Screencapture von Echtzeit-Verfolgung der Roboterbewegung:</B>  
+<B>Screencapture von Echtzeit-Verfolgung der Roboterbewegung (neue Positionen werden alle 10s abgerufen):</B>  
 
-<A HREF="./img/Robot-Realtime-Position.mp4?raw=true">Download Video (10 MB)</A>  
+<A HREF="./img/Robot-Realtime-Position.mp4?raw=true">Video ansehen (1:05 Min., 10 MB)</A>  
