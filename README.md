@@ -29,4 +29,4 @@ Some boards left over from a collective order are still available. Contact robot
 
 <B>Screencapture of realtime robot movements:</B>  
 
-<A HREF="./img/Realtime%20Robot%20Position.mp4">Download video (10 MB)</A>  
+<A HREF="./img/Realtime-Robot-Position.mp4">Download video (10 MB)</A>  
