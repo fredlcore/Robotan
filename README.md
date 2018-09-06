@@ -30,3 +30,6 @@ Some boards left over from a collective order are still available. Contact robot
 <B>Screencapture of realtime robot movements (new position polled every 10 seconds):</B>  
 
 <A HREF="./img/Robot-Realtime-Position.mp4?raw=true">Watch video (1:04 min, 10 MB)</A>  
+<BR>
+
+<IMG SRC="./img/Robot-Realtime-Position.png">
