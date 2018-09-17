@@ -42,7 +42,7 @@ to one like this:
 VCC <-> 3V3  
 GND <-> G  
 TX <-> D7  
-RX <-> D8 (used to configure the module, not yet supported)  
+Do not connect the RX line of the module as it is not used and might interfere with the Wemos D1 Mini board.  
 
 If you connect the piezo buzzer to D2 (+) and GND (-), an SOS beep will turn on once the robot has left the permissible GPS coordinates.
 

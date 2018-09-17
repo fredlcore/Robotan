@@ -40,7 +40,7 @@ angelötet werden:
 VCC <-> 3V3  
 GND <-> G    
 TX <-> D7  
-RX <-> D8 (zur Konfiguration des Moduls; bisher noch nicht unterstützt)  
+Den RX-Pin des GPS-Moduls nicht verbinden, da es den Boot-Prozess des Wemos D1 Mini Boards beeinflussen könnte.  
 
 Wenn der Piezosummer mit Pin D2 (+) und GND (-) verbunden wird, ertönen SOS-Piepser, wenn sich der Roboter außerhalb der zulässigen GPS-Koordinaten befindet.
 
