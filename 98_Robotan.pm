@@ -179,7 +179,7 @@ sub Robotan_Set($$@) {
 
   $hash->{".triggerUsed"} = 1;
 
-  my $list = 'Play/Pause:noArg Home/Work:noArg Spiral:noArg Straight:noArg Left:noArg Right:noArg Start_Time_1 End_Time_1 Mowing_Days:multiple-strict,1,2,3,4,5,6,7 Border_Mowing_Days:multiple-strict,0,1,2,3,4,5,6,7 General_Mowing_Days:multiple-strict,1,2,3,4,5,6,7 General_Border_Mowing_Days:multiple-strict,0,1,2,3,4,5,6,7 Mow_Today:0,1';
+  my $list = 'Play/Pause:noArg Home/Work:noArg Spiral:noArg Straight:noArg Left:noArg Right:noArg Start_Time_1 End_Time_1 Start_Time_2 End_Time_2 Mowing_Days:multiple-strict,1,2,3,4,5,6,7 Border_Mowing_Days:multiple-strict,0,1,2,3,4,5,6,7 General_Mowing_Days:multiple-strict,1,2,3,4,5,6,7 General_Border_Mowing_Days:multiple-strict,0,1,2,3,4,5,6,7 Mow_Today:0,1';
   $list =~ s/ $//;
   return "Unknown argument $cmd, choose one of $list" if ($cmd eq "?");
 
@@ -289,6 +289,13 @@ sub Robotan_Set($$@) {
   if ($cmd eq "End_Time_1") {
     $param_nr=23;
   }
+  if ($cmd eq "Start_Time_2") {
+    $param_nr=24;
+  }
+  if ($cmd eq "End_Time_2") {
+    $param_nr=25;
+  }
+
   if ($cmd eq "Mowing_Days") {
     $param_nr=20;
     if ($params[0] lt "1") {
