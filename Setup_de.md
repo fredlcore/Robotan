@@ -1,5 +1,5 @@
 <H2>Installieren und Updaten der Robotan Firmware</H2>
-English version can be found <A HREF="Setup_de.md">here</A>.
+English version can be found <A HREF="Setup.md">here</A>.
 <BR><BR>
 Die Prozeduren für das Installieren und Updaten der Robotan Firmware unterscheiden
 sich leicht, aber sobald einmal eine Robotan Firmware installiert ist, kann man

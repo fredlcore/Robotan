@@ -31,5 +31,4 @@ Some boards left over from a collective order are still available. Contact robot
 
 <A HREF="./img/Robot-Realtime-Position.mp4?raw=true">Watch video (1:04 min, 10 MB)</A>  
 <BR>
-
 <IMG SRC="./img/Robot-Realtime-Position.png">
