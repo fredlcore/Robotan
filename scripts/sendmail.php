@@ -4,7 +4,7 @@
 <?php
 require_once "Mail.php";
 
-$from = 'your@e-mail.de'		// CHANGE THIS!; 
+$from = 'your@e-mail.de';		// CHANGE THIS!
 $to = 'your@e-mail.de'; 		// CHANGE THIS!
 $subject = 'Robotan ' . htmlspecialchars($_GET["error"]); 
 $body = $subject;
