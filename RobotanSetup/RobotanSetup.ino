@@ -1,5 +1,6 @@
 /*
-  To upload through terminal you can use: curl -F "image=@firmware.bin" robotan.local/update
+  To upload through terminal you can use: curl -u Robotan:Robotan88 -F "image=@firmware.bin" robotan.local:8080/update
+  Adjust credentials in case you changed them from default.
 */
 
 /* 
@@ -14,7 +15,7 @@
     and be active after the robotan firmware file has been flashed and restarted. 
 
     Thanks to Oliver Weismantel for helpful additions!
-*/
+*/ 
 
 #define LOGIN_CREDENTIALS_LENGTH_MAX 16
 
