@@ -4,7 +4,7 @@ const uint32_t baud_rates[] = {9600, 38400, 57600, 115200};
 
 SoftwareSerial BluetoothSerial(2, 0, false, 256);
 
-void setup() {
+void setup(void) {
   Serial.begin(38400);
 
   for (int x = 0; x < 4; x++) {    
@@ -39,7 +39,7 @@ void setup() {
 
 }
 
-void loop() {
+void loop(void) {
   while (BluetoothSerial.available() > 0) {
     Serial.write(BluetoothSerial.read());
     yield();
