@@ -1,5 +1,5 @@
 /*
-  To upload through terminal you can use: curl -u Robotan:Robotan88 -F "image=@firmware.bin" robotan.local:8080/update
+  To upload through terminal you can use: curl -u Robotan:Robotan88 -F "image=@fRobotan.ino.bin" robotan.local:8080/update
   Adjust credentials in case you changed them from default.
 */
 
