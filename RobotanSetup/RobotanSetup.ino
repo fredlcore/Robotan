@@ -40,7 +40,7 @@ const char* host = "robotan";
 const char* def_ssid = "Robotan";
 const char* def_pass = "Robotan88";
 
-int eeprom_allocated_mem = 1024;
+int eeprom_allocated_mem = 4096;
 int eeprom_login_credentials_base=512;
 
 ESP8266WebServer httpServer(8080);
