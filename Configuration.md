@@ -23,8 +23,7 @@ You also have the option to provide the Robotan module with a fixed IP address a
 Robotan can notify you in case the robot reports an error, for example when it gets stuck.  
 To be able to send the notifications, Robotan must use your own WiFi network (see above). Robotan will call the URL defined at "Notify URL"
 and add the reason for the notification (i.e. "Lift Error") at the very end, so you can call an URL and pass the reason as a parameter. If you don't want the error to be passed on, then just end your URL with a <code>#</code>. The reason text will still be appended, but the <code>#</code> will basically make the text being ignored in the URL.<BR>
-Please take note that you can only call plain http URLs, https is currently not supported! However, you can call a http URL for example on 
-your local network and then make a https call from there.
+As of May 2019, calls to https sites are now also supported!
 <H4>Example for using Prowl (Apple iPhone/iPad)</H4>
 <A HREF="http://www.prowlapp.com">Prowl</A> is a notification app for iPhone and iPad. After you register, you can create an API key which 
 you can send your notifications to. The URL for Robotan would look like this:<BR>

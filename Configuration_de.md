@@ -43,10 +43,7 @@ Damit kann eine URL aufgerufen werden, die den Grund für die Meldung als Parame
 wird, beende die URL einfach mit einem <code>#</code>. Der Grund für die Meldung
 wird zwar weiterhin an die URL angehängt, aber das <code>#</code> sorgt dafür,
 dass der Text nicht als Teil der URL interpretiert wird.<BR>
-Bitte beachte, dass es nur möglich ist, einfache http-Aufrufe durchzuführen - 
-verschlüsselte https-Aufrufe werden nicht unterstützt! Du kannst aber eine http 
-URL in Deinem lokalen Netzwerk aufrufen, die dann von dort aus einen 
-entsprechenden https-Aufruf erzeugt.
+Seit Mai 2019 sind nun auch Aufrufe von Seiten über https möglich!
 
 <H4>Beispiel: Benachrichtigung über Prowl (Apple iPhone/iPad)</H4>
 
