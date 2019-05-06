@@ -114,3 +114,6 @@ Hier können die äußeren Koordinaten des Grundstücks angegeben werden. Wenn s
 der Roboter außerhalb dieser Koordinaten aufhält (z.B., weil er gerade gestohlen wird), dann wird eine Nachricht mit den momentanen Koordinaten versendet.
 Bitte beachten: Auch hier kann es durch GPS-Ungenauigkeiten zu Fehlermeldungen kommen, wenn die Grundstückskoordinaten exakt eingegeben werden.
 </UL>
+<H3>GPIOs Direktzugriff</H3>
+Über die URL <code>/gpio?x=y</code> können die GPIO-Pins des Wemos direkt angesprochen werden, z.B. um ein Relay-Shield anzusteuern
+o.ä. Dabei ist <code>x</code> die interne Nummer des GPIO Pins und <code>y</code> entweder 0 oder 1, je nachdem, ob der Pin auf low oder high gesetzt werden soll.

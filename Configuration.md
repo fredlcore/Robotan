@@ -62,3 +62,5 @@ The position of the base (garage) helps to prevent false positives when the robo
 <LI>Enable geo-fencing</LI>
 You may provide coordinates of your garden here. Once the robot leaves these coordinates (e.g. because of theft) a message will be sent out with the current coordinates.
 </UL>
+<H3>GPIOs direct access</H3>
+Via the URL <code>/gpio?x=y</code> the GPIO pins of the Wemos can be accessed directly, e.g. to control a relay shield, where <code>x</code> is the intenral number of the GPIO pin, and <code>y</code> is either 0 or 1, depending on whether the pin should be low or high.
