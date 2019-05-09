@@ -26,7 +26,7 @@ To assemble the board, proceed as follows:
 
 2. Solder the five 0.1µF capacitators on the board at the designated spots
 
-3. Solder the 220µF capacitator  between 5V and G(ND) on the board - watch the polarity! Afterwards, bend the capacitator down, as shown in the photo below.
+3. Solder the 470µF capacitator  between 5V and G(ND) on the board - watch the polarity! Afterwards, bend the capacitator down, as shown in the photo below.
 
 4. Solder the two 8 pin sockets to the Wemos D1 mini and the two 8 pin headers on the Robotan board.
 

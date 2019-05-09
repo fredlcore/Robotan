@@ -27,7 +27,7 @@ Dann wie folgt vorgehen:
 
 3. Dann die fünf 0.1µF Kondensatoren an den markierten Stellen auf das Board löten.
 
-4. Dann den 220µF Kondensator zwischen 5V und G(ND) auf das Board löten, dabei unbedingt die Polarität beachten! Den Kondensator dann zur Seite hin herunterbiegen (siehe Foto unten).
+4. Dann den 470µF Kondensator zwischen 5V und G(ND) auf das Board löten, dabei unbedingt die Polarität beachten! Den Kondensator dann zur Seite hin herunterbiegen (siehe Foto unten).
 
 5. Dann den seriellen Stecker auf das Board löten. Ggf. muss man die zwei angrenzenden Kondensatoren etwas biegen.
 
