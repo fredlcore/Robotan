@@ -271,10 +271,6 @@ sub Robotan_Set($$@) {
     $param_nr=4;
   }
 
-  if ($cmd =~ /Spiral/) {
-    $param_nr=4;
-  }
-
   if ($cmd =~ /Home/) {
     $param_nr=5;
   }
