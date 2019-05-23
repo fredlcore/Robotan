@@ -14,9 +14,10 @@ Um das Robotan Board zusammenzubauen, benötigt man das
 <LI>2 x 8 Pin Buchsenleiste
 <LI>optional: 1 x HC-05 Bluetooth Modul (HC-06 auch möglich)
 <LI>optional: 1 x u-blox NEO-6 GPS Modul (oder kompatibel)
+<LI>optional: 1 x ADXL335 Beschleunigungssensor (mit analogem X/Y/Z Ausgangspins)
 <LI>optional: 1 x Piezo Summer CPM 121 (für Alarmierung, wenn der Roboter außerhalb der zulässigen GPS-Koordinaten ist)
   </UL>
-Außer dem Wemos D1 Mini, dem GPS- und dem Bluetooth-Modul finden sich alle Bauteile in dieser Liste bei <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.
+Außer dem Wemos D1 Mini und den Erweiterungsmodulen/-sensoren finden sich alle Bauteile in dieser Liste bei <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.
 
 Dann wie folgt vorgehen:
 <BR>
@@ -41,10 +42,11 @@ VCC <-> 3V3
 GND <-> G    
 TX <-> D7  
 Den RX-Pin des GPS-Moduls nicht verbinden, da es den Boot-Prozess des Wemos D1 Mini Boards beeinflussen könnte.  
+Wenn ein Piezosummer mit Pin D0 (neu, ältere Softwareversionen D2) (+) und GND (-) verbunden wird, ertönen SOS-Piepser, wenn sich der Roboter außerhalb der zulässigen GPS-Koordinaten befindet.
 
-Wenn der Piezosummer mit Pin D2 (+) und GND (-) verbunden wird, ertönen SOS-Piepser, wenn sich der Roboter außerhalb der zulässigen GPS-Koordinaten befindet.
+9. Der optionale Beschleunigungssensor ADXL335, der die Stillstandserkennung verbessert, muss an 5V und GND angeschlossen werden, sowie einer der drei X/Y/Z-Achsen an den Pin A0 des Wemos D1 Mini. Dabei ist die Achse zu wählen, die nach Einbau des Sensors die horizontale Bewegungsachse am besten abbildet.
 
-8. Das optionale Bluetooth-Modul kann eins-zu-eins an das Robotan-Modul 
+10. Das optionale Bluetooth-Modul kann eins-zu-eins an das Robotan-Modul 
 angelötet werden (siehe auch Bild unten):  
 5V <-> 5V  
 GND <-> G    
