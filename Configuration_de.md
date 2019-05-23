@@ -108,7 +108,8 @@ Meldungen werden nur innerhalb der angegebenen Zeiten versendet. Bitte beachte,
 dass diese Zeiten in der UTC-Zeitzone eingegeben werden müssen, die im Sommer
 zwei Stunden hinter der Zeit in den meisten Staaten Mitteleuropas liegt.
 Die Position der Basis (Garage) kann angegeben werden, um zu verhindern, dass
-ein geparkter Roboter eine Warnmeldung erzeugt.
+ein geparkter Roboter eine Warnmeldung erzeugt.  
+Wenn ein ADXL335 Beschleunigungssensor installiert ist, kann dieser hier aktiviert werden und die Stillstanderkennung deutlich verbessern. Falls es während des Fahrens des Roboters dennoch zu Fehlalarmen kommt, kann mit der Sensitivity-Einstellung möglicherweise eine Verbesserung erreicht werden. Höhere Werte führen zu einer größeren Toleranz, niedriegere Werte zu einer geringeren.
 <LI>Enable Geo-Fencing</LI>
 Hier können die äußeren Koordinaten des Grundstücks angegeben werden. Wenn sich
 der Roboter außerhalb dieser Koordinaten aufhält (z.B., weil er gerade gestohlen wird), dann wird eine Nachricht mit den momentanen Koordinaten versendet.
