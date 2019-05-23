@@ -13,9 +13,10 @@ To assemble the Robotan board, you'll need the <A HREF="schematics">plain board<
 <LI>2 x 8 pin socket
 <LI>optionally: 1 x HC-05 Bluetooth module (HC-06 also works)
 <LI>optionally: 1 x u-blox NEO-6 GPS module (or compatible)
+<LI>optionally: 1 x ADXL335 acceleration sensor (analogue, with X/Y/Z output pins)
 <LI>optionally: 1 x Piezo buzzer CPM 121 (for alarm beeps when robot is outside GPS boundaries)
   </UL>
-Except for the Wemos D1 Mini, the HC-05 Bluetooth module and the u-blox GPS module, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.  
+Except for the Wemos D1 Mini and the extension modules/sensors, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.  
 <BR>
 Some boards from a collective order are still available. Contact robotan (ät) code-it.de if you are interested (German or English).
 <BR><BR>
@@ -43,10 +44,11 @@ VCC <-> 3V3
 GND <-> G  
 TX <-> D7  
 Do not connect the RX line of the module as it is not used and might interfere with the Wemos D1 Mini board.  
-
 If you connect the piezo buzzer to D2 (+) and GND (-), an SOS beep will turn on once the robot has left the permissible GPS coordinates.
 
-9. If you want to add the HC-05 Bluetooth module, you can solder the pins one 
+9. If you want to add the ADXL335 acceleration sensor for greater accuracy when detecting whether the robot is stuck, connect the VCC and GND pins to 5V and GND on the Wemos D1 Mini respectively. Connect one of the X/Y/Z axis pins to the A0 pin on the Wemos. Use that axis pin on the ADXL335 that best matches the horizontal movement axis of the robot. This depends on where and in which direction you have attached the sensor inside the robot.
+
+10. If you want to add the HC-05 Bluetooth module, you can solder the pins one 
 to one like this (see also image below):  
 5V <-> 5V  
 GND <-> G  
