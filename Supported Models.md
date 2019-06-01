@@ -1,5 +1,6 @@
 The following lawn robots SHOULD be supported in general as they all use the 
 same app.  
+**Robots with an AM4000 mainboard (such as the L250) do not work with Robotan because they don't have a serial port on the mainboard!**  
 The following is a list of functions enabled by default in the firmware of the 
 robot. If your robot does not offer the full functionality, you should get in
 touch with your manufacturer and politely ask whether they are going to add
@@ -26,8 +27,8 @@ If you have successfully used Robotan in one of the robots which are not yet con
 |CIIKY XH2|X|X||
 |CIIKY XHN|X|X||
 |CIIKY XK|X|X|?|  
-|F 28|X|X|?|
-|F 35S|X|X|?|
+|F 28|-|-|-|
+|F 35S|-|-|-|
 |JOY X|X||?|
 |JOY XE|X||X|
 |JOY XH|X||?|
@@ -63,11 +64,11 @@ If you have successfully used Robotan in one of the robots which are not yet con
 |L200R Deluxe|X||?|
 |L200R Elite|X||?|
 |L200R Evolution|X||?| 
-|L210 TX-C1|X|X|?|
-|L210 Elite TX-C1|X|X|?|
-|L250 Elite|X|X|?|
-|L250i Elite|X|X|?|
-|L250 Deluxe|X|X|?|
+|L210 TX-C1|?|?|?|
+|L210 Elite TX-C1|?|?|?|
+|L250 Elite|-|-|-|
+|L250i Elite|-|-|-|
+|L250 Deluxe|-|-|-|
 |L30 Basic|X|X|?  
 |L30 Deluxe|X|X||  
 |L30 Elite|X|X||  

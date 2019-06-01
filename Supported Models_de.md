@@ -1,5 +1,6 @@
 Die folgenden Rasenmähroboter SOLLTEN mit dem Robotan Board funktionieren,
 da sie alle die gleiche App verwenden.  
+**Roboter mit einem AM4000 Mainboard funktionieren nicht mit Robotan, da sie keine serielle Schnittstelle auf dem Mainboard haben!**  
 Die folgende Liste führt auf, was für Funktionen standardmäßig in den Geräten
 freigeschaltet sind. Bei Robotern mit geringerem Funktionsumfang besteht
 zumindest die Hoffnung, dass der Hersteller die Funktionen noch freischaltet.
@@ -28,8 +29,8 @@ entsprechenden Infos nachtragen kann.
 |CIIKY XH2|X|X||
 |CIIKY XHN|X|X||
 |CIIKY XK|X|X|?|  
-|F 28|X|X|?|
-|F 35S|X|X|?|
+|F 28|-|-|-|
+|F 35S|-|-|-|
 |JOY X|X||?|
 |JOY XE|X||X|
 |JOY XH|X||?|
@@ -65,11 +66,11 @@ entsprechenden Infos nachtragen kann.
 |L200R Deluxe|X||?|
 |L200R Elite|X||?|
 |L200R Evolution|X||?| 
-|L210 TX-C1|X|X|?|
-|L210 Elite TX-C1|X|X|?|
-|L250 Elite|X|X|?|
-|L250i Elite|X|X|?|
-|L250 Deluxe|X|X|?|
+|L210 TX-C1|?|?|?|
+|L210 Elite TX-C1|?|?|?|
+|L250 Elite|-|-|-|
+|L250i Elite|-|-|-|
+|L250 Deluxe|-|-|-|
 |L30 Basic|X|X|?  
 |L30 Deluxe|X|X||  
 |L30 Elite|X|X||  
