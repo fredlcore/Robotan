@@ -1,6 +1,6 @@
 Die folgenden Rasenmähroboter SOLLTEN mit dem Robotan Board funktionieren,
 da sie alle die gleiche App verwenden.  
-**Roboter mit einem AM4000 Mainboard funktionieren nicht mit Robotan, da sie keine serielle Schnittstelle auf dem Mainboard haben!**  
+**Roboter mit einem AM4000 Mainboard (wie z.B. der L250) funktionieren nicht mit Robotan, da sie keine serielle Schnittstelle auf dem Mainboard haben!**  
 Die folgende Liste führt auf, was für Funktionen standardmäßig in den Geräten
 freigeschaltet sind. Bei Robotern mit geringerem Funktionsumfang besteht
 zumindest die Hoffnung, dass der Hersteller die Funktionen noch freischaltet.
@@ -12,7 +12,7 @@ Wenn Du Robotan in einem der noch nicht getesteten Roboter
 verwendest, informiere mich bitte unter robotan (ät) code-it.de, damit ich die
 entsprechenden Infos nachtragen kann.
 
-|Modell|Steuerng|Konfiguration|Verlängerungskabel empfohlen|
+|Modell|Steuerung|Konfiguration|Verlängerungskabel empfohlen|
 |:----|:------:|:-----------:|:-------------------------:|
 |**Alpina**|
 ||
