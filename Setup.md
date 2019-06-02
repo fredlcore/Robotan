@@ -13,7 +13,7 @@ you have follow the following steps:
 2. In the Arduino IDE, set the following parameters in the "Tools" menu:
 <IMG SRC="img/ArduinoSettings.png">
 
-3. Connect the Wemos D1 with your computer via USB but WITHOUT THE ROBOTAN BOARD ATTACHED and flash the <A HREF="RobotanSetup.ino">RobotanSetup.ino</A>.  
+3. Connect the Wemos D1 with your computer via USB but WITHOUT THE ROBOTAN BOARD ATTACHED and flash the <A HREF="RobotanSetup/RobotanSetup.ino">RobotanSetup.ino</A>.  
 Before flashing, you may set individual credentials for your personal WiFi 
 network (variables WLAN_local_SSID and WLAN_local_password) as well as for the 
 username and password for the webinterface (variables http_username and 

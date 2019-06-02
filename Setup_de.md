@@ -19,7 +19,7 @@ werden:
 <IMG SRC="img/ArduinoSettings.png">
 
 3. Verbinde den Wemos D1 über USB mit Deinem Computer ABER OHNE DAS ROBOTAN BOARD und flashe den Sketch
-<A HREF="RobotanSetup.ino">RobotanSetup.ino</A>.  
+<A HREF="RobotanSetup/RobotanSetup.ino">RobotanSetup.ino</A>.  
 In dieser Datei können vorher noch bei Bedarf individuelle Zugangsdaten für das 
 WLAN (Variablen WLAN_local_SSID und WLAN_local_password) sowie für den Zugang 
 zum Webinterface (Variablen http_username und http_password) konfiguriert 
