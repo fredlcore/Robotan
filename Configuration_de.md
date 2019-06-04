@@ -1,10 +1,7 @@
 <H2>Robotan konfigurieren</H2>
 English version can be found <A HREF="Configuration.md">here</A>.
 <BR><BR>
-Momentan gibt es zwei Optionen, die man für die Verwendung von Robotan konfigurieren
-kann: Die WLAN-Einstellungen und die Push-Benachrichtigungen.
-<BR>
-Um diese Optionen zu konfigurieren, ruft man folgende Adresse auf:
+Um die Optionen von Robotan zu konfigurieren, ruft man folgende Adresse auf:
   `http://192.168.4.1/config`
 <BR>
 Wenn Du nach Zugangsdaten gefragt wirst, gib <code>Robotan</code> als Benutzernmane
@@ -87,6 +84,9 @@ einbinden:
 Dann klicke auf "Set URL" und Robotan wird jedes Mal, wenn ein Fehler auftritt,
 eine Benachrichtigung versenden.
 
+<H3>Stillstandserkennung konfigurieren (für ältere Roboter)</H3>
+Wenn ein ADXL335 Beschleunigungssensor installiert ist, kann dieser hier aktiviert werden und die Stillstanderkennung bei älteren Robotern ermöglichen, die nicht auslesen können, ob ein Fehler vorliegt ("Steering only"). Falls es während des Fahrens des Roboters dennoch zu Fehlalarmen kommt, kann mit der Sensitivity-Einstellung möglicherweise eine Verbesserung erreicht werden. Höhere Werte führen zu einer größeren Toleranz, niedriegere Werte zu einer geringeren.
+
 <H3>GPS-Funktionen konfigurieren</H3>
 Im Konfigurationsmenü gibt es folgende GPS-Funktionen:
 <UL>
@@ -109,7 +109,6 @@ dass diese Zeiten in der UTC-Zeitzone eingegeben werden müssen, die im Sommer
 zwei Stunden hinter der Zeit in den meisten Staaten Mitteleuropas liegt.
 Die Position der Basis (Garage) kann angegeben werden, um zu verhindern, dass
 ein geparkter Roboter eine Warnmeldung erzeugt.  
-Wenn ein ADXL335 Beschleunigungssensor installiert ist, kann dieser hier aktiviert werden und die Stillstanderkennung deutlich verbessern. Falls es während des Fahrens des Roboters dennoch zu Fehlalarmen kommt, kann mit der Sensitivity-Einstellung möglicherweise eine Verbesserung erreicht werden. Höhere Werte führen zu einer größeren Toleranz, niedriegere Werte zu einer geringeren.
 <LI>Enable Geo-Fencing</LI>
 Hier können die äußeren Koordinaten des Grundstücks angegeben werden. Wenn sich
 der Roboter außerhalb dieser Koordinaten aufhält (z.B., weil er gerade gestohlen wird), dann wird eine Nachricht mit den momentanen Koordinaten versendet.

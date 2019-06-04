@@ -1,7 +1,7 @@
 <H2>Configuring Robotan</H2>
 Die deutsche Version befindet sich <A HREF="Configuration_de.md">hier</A>.
 <BR><BR>
-Currently, there are two options you can configure when using Robotan: The WiFi network and the push notification. To configure these options, go to<BR>
+To configure Robotan's options, go to<BR>
   <code>http://192.168.4.1/config</code>
 <BR>
 If you are asked for a login, the username is "Robotan" and the password is "Robotan88", unless you chose your own credentials during instalation.  
@@ -51,6 +51,9 @@ an e-mail from the script, you can use the URL in the Robotan configuration like
 <BR>
 Then click "Set URL" and Robotan will send out a notification each time an error occurs.
 
+<H3>Configuring stuck detection</H3>
+If you have installed a ADXL335 acceleration sensor, you can activate its use here which will provide a "stuck detection" for older robots who are not able to read the error status of the robot ("Steering only"). If you get false positives when the robot is mowing, play around with the sensitivity value a bit. Higher values lead to a greater tolerance, lesser values to a lower tolerance.
+
 <H3>Configuring GPS functions</H3>
 In the configuration menu, you have the following GPS-based options:  
 <UL>
@@ -59,7 +62,6 @@ GPS logs will be saved every 10 seconds into the device's flash memory until the
 <LI>Enable GPS stuck detection</LI>
 This is useful for older robots which do not provide access to the error messages, like when the robot is stuck. This function will evaluate the (not 100% accurate) GPS position of the robot and determine whether the robot is stuck or not. The inaccuracy radius may help to prevent false positives. Alerts will only be sent during start and end time. Please note that these times are based on the UTC timezone (which is in summer two hours behind the rest of central Europe.  
 The position of the base (garage) helps to prevent false positives when the robot is in the garage (and therefore looks as being 'stuck').  
-If you have installed a ADXL335 acceleration sensor, you can activate its use here as well, as this will improve stuck detection a lot. If you get false positives when the robot is mowing, play around with the sensitivity value a bit. Higher values lead to a greater tolerance, lesser values to a lower tolerance.
 <LI>Enable geo-fencing</LI>
 You may provide coordinates of your garden here. Once the robot leaves these coordinates (e.g. because of theft) a message will be sent out with the current coordinates.
 </UL>
