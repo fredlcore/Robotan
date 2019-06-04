@@ -47,8 +47,8 @@ TX <-> D7
 Do not connect the RX line of the module as it is not used and might interfere with the Wemos D1 Mini board.  
 If you connect the piezo buzzer to D2 (+) and GND (-), an SOS beep will turn on once the robot has left the permissible GPS coordinates.
 
-9. If you want to add the  <A HFREF="https://amzn.to/2MoVvjT">ADXL335</A> acceleration sensor in older robots for detecting whether the robot is stuck, connect the VCC and GND pins to 3V3 and GND on the Wemos D1 Mini respectively. Connect one of the X/Y/Z axis pins to the A0 pin on the Wemos. Use that axis pin on the ADXL335 that best matches the horizontal movement axis of the robot. This depends on where and in which direction you have attached the sensor inside the robot.  
-To reduce or at best eliminate false alarms on older robots when the robot is back in its base, you can use a <A HREF="https://amzn.to/3184fOL">Hall Effect Sensor KY-003</A> in combination with a <A HFRE="https://amzn.to/2MqvkJP">strong magnet</A>. Connect VCC with 5V, GND with G and the signal pin of the KY-003 with pin D1 of the Wemos.  
+9. If you want to add the  <A HREF="https://amzn.to/2MoVvjT">ADXL335</A> acceleration sensor in older robots for detecting whether the robot is stuck, connect the VCC and GND pins to 3V3 and GND on the Wemos D1 Mini respectively. Connect one of the X/Y/Z axis pins to the A0 pin on the Wemos. Use that axis pin on the ADXL335 that best matches the horizontal movement axis of the robot. This depends on where and in which direction you have attached the sensor inside the robot.  
+To reduce or at best eliminate false alarms on older robots when the robot is back in its base, you can use a <A HREF="https://amzn.to/3184fOL">Hall Effect Sensor KY-003</A> in combination with a <A HREF="https://amzn.to/2MqvkJP">strong magnet</A>. Connect VCC with 5V, GND with G and the signal pin of the KY-003 with pin D1 of the Wemos.  
 Magnet and sensor should be placed in a way that there is only a very small distance between them when the robot is in its base (2-3 cm).
 
 10. If you want to add the HC-05 Bluetooth module, you can solder the pins one 

@@ -45,8 +45,8 @@ TX <-> D7
 Den RX-Pin des GPS-Moduls nicht verbinden, da es den Boot-Prozess des Wemos D1 Mini Boards beeinflussen könnte.  
 Wenn ein Piezosummer mit Pin D0 (neu, ältere Softwareversionen D2) (+) und GND (-) verbunden wird, ertönen SOS-Piepser, wenn sich der Roboter außerhalb der zulässigen GPS-Koordinaten befindet.
 
-9. Der optionale Beschleunigungssensor <A HFREF="https://amzn.to/2MoVvjT">ADXL335</A>, der die Stillstandserkennung bei älteren Robotern verbessert, muss an 3V3 und GND angeschlossen werden, sowie einer der drei X/Y/Z-Achsen an den Pin A0 des Wemos D1 Mini. Dabei ist die Achse zu wählen, die nach Einbau des Sensors die horizontale Bewegungsachse am besten abbildet.  
-Um bei älteren Robotern einen Fehlalarm bei Stillstand in der Basis zu vermeiden, kann mit dem <A HREF="https://amzn.to/3184fOL">Hall Effekt Sensor KY-003</A> in Kombination mit einem <A HFRE="https://amzn.to/2MqvkJP">starken Magneten</A> die Erkennung der Basis ermöglicht werden. Dabei muss VCC mit 5V verbunden werden, GND mit G und der Signal-Pin des Moduls mit Pin D1 des Wemos.  
+9. Der optionale Beschleunigungssensor <A HREF="https://amzn.to/2MoVvjT">ADXL335</A>, der die Stillstandserkennung bei älteren Robotern verbessert, muss an 3V3 und GND angeschlossen werden, sowie einer der drei X/Y/Z-Achsen an den Pin A0 des Wemos D1 Mini. Dabei ist die Achse zu wählen, die nach Einbau des Sensors die horizontale Bewegungsachse am besten abbildet.  
+Um bei älteren Robotern einen Fehlalarm bei Stillstand in der Basis zu vermeiden, kann mit dem <A HREF="https://amzn.to/3184fOL">Hall Effekt Sensor KY-003</A> in Kombination mit einem <A HREF="https://amzn.to/2MqvkJP">starken Magneten</A> die Erkennung der Basis ermöglicht werden. Dabei muss VCC mit 5V verbunden werden, GND mit G und der Signal-Pin des Moduls mit Pin D1 des Wemos.  
 Magnet und Sensor sind dann so zu platzieren, dass dazwischen ein möglichst kleiner Abstand erzielt wird (2-3 cm).  
 
 10. Das optionale Bluetooth-Modul kann eins-zu-eins an das Robotan-Modul 
