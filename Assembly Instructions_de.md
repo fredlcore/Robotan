@@ -14,8 +14,8 @@ Um das Robotan Board zusammenzubauen, benötigt man das
 <LI>2 x 8 Pin Buchsenleiste
 <LI>optional: 1 x HC-05 Bluetooth Modul (HC-06 auch möglich)
 <LI>optional: 1 x u-blox NEO-6 GPS Modul (oder kompatibel)
-<LI>optional: 1 x ADXL335 Beschleunigungssensor (mit analogem X/Y/Z Ausgangspins)
-<LI>optional: 1 x KY-003 Halleffektsensor (digital, active low)
+<LI>optional: 1 x ADXL335 Beschleunigungssensor (mit analogem X/Y/Z Ausgangspins) für ältere Roboter zur Festfahr-Erkennung
+<LI>optional: 1 x KY-003 Halleffektsensor (digital, active low) für ältere Roboter zur Festfahr-Erkennung
 <LI>optional: 1 x Piezo Summer CPM 121 (für Alarmierung, wenn der Roboter außerhalb der zulässigen GPS-Koordinaten ist)
   </UL>
 Außer dem Wemos D1 Mini und den Erweiterungsmodulen/-sensoren finden sich alle Bauteile in dieser Liste bei <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.
@@ -45,8 +45,15 @@ TX <-> D7
 Den RX-Pin des GPS-Moduls nicht verbinden, da es den Boot-Prozess des Wemos D1 Mini Boards beeinflussen könnte.  
 Wenn ein Piezosummer mit Pin D0 (neu, ältere Softwareversionen D2) (+) und GND (-) verbunden wird, ertönen SOS-Piepser, wenn sich der Roboter außerhalb der zulässigen GPS-Koordinaten befindet.
 
-9. Der optionale Beschleunigungssensor <A HREF="https://amzn.to/2MoVvjT">ADXL335</A>, der die Stillstandserkennung bei älteren Robotern verbessert, muss an 3V3 und GND angeschlossen werden, sowie einer der drei X/Y/Z-Achsen an den Pin A0 des Wemos D1 Mini. Dabei ist die Achse zu wählen, die nach Einbau des Sensors die horizontale Bewegungsachse am besten abbildet.  
-Um bei älteren Robotern einen Fehlalarm bei Stillstand in der Basis zu vermeiden, kann mit dem <A HREF="https://amzn.to/3184fOL">Hall Effekt Sensor KY-003</A> in Kombination mit einem <A HREF="https://amzn.to/2MqvkJP">starken Magneten</A> die Erkennung der Basis ermöglicht werden. Dabei muss VCC mit 5V verbunden werden, GND mit G und der Signal-Pin des Moduls mit Pin D1 des Wemos.  
+9. Der optionale Beschleunigungssensor <A HREF="https://amzn.to/2MoVvjT">ADXL335</A>, der die Stillstandserkennung bei älteren Robotern verbessert, muss wie folgt angeschlossen werden:  
+VCC <-> 3V3  
+GND <-> G  
+X/Y/Z (einer davon) <-> A0  
+Dabei ist die Achse zu wählen, die nach Einbau des Sensors die horizontale Bewegungsachse am besten abbildet.  
+Um bei älteren Robotern einen Fehlalarm bei Stillstand in der Basis zu vermeiden, kann mit dem <A HREF="https://amzn.to/3184fOL">Hall Effekt Sensor KY-003</A> in Kombination mit einem <A HREF="https://amzn.to/2MqvkJP">starken Magneten</A> die Erkennung der Basis ermöglicht werden. Dabei muss die Verbindung wie folgt hergestellt werden:  
+VCC <-> 5V  
+GND <-> G  
+SIG/OUT <-> D1  
 Magnet und Sensor sind dann so zu platzieren, dass dazwischen ein möglichst kleiner Abstand erzielt wird (2-3 cm), möglich ist dies z.B., wenn der Sensor direkt an/unter der Bodenplattte befestigt wird und der Magnet darunter, oder an der Frontseite des Roboters und der Magnet an der Ladestation. Hier ist Ausprobieren gefragt!    
 
 10. Das optionale Bluetooth-Modul kann eins-zu-eins an das Robotan-Modul 
