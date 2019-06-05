@@ -11,10 +11,11 @@ To assemble the Robotan board, you'll need the <A HREF="schematics">plain board<
 <LI>1 x 470µF capacitator
 <LI>2 x 8 pin header
 <LI>2 x 8 pin socket
-<LI>optionally: 1 x HC-05 Bluetooth module (HC-06 also works)
-<LI>optionally: 1 x u-blox NEO-6 GPS module (or compatible)
-<LI>optionally: 1 x ADXL335 acceleration sensor (analogue, with X/Y/Z output pins) for older robots for stuck detection
-<LI>optionally: 1 x KY-003 hall effect sensor (digital, active low) for older robots for stuck detection
+<LI>optionally: 1 x <A HREF="https://amzn.to/2ZaNa4P">HC-05 Bluetooth module</A> (HC-06 also works)
+<LI>optionally: 1 x <A HREF="https://amzn.to/2JXdzQ2">u-blox NEO-6 GPS module</A> (or compatible)
+<LI>optionally: 1 x <A HREF="https://amzn.to/2MoVvjT">ADXL335 acceleration sensor</A> (analogue, with X/Y/Z output pins) for older robots for stuck detection
+<LI>optionally: 1 x <A HREF="https://amzn.to/3184fOL">KY-003</A> hall effect sensor (digital, active low) for older robots for stuck detection
+<LI>optionally: 1 x <A HREF="https://amzn.to/2MqvkJP">strong magnet (N52)</A> for the hall effect sensor
 <LI>optionally: 1 x Piezo buzzer CPM 121 (for alarm beeps when robot is outside GPS boundaries)
   </UL>
 Except for the Wemos D1 Mini and the extension modules/sensors, you can find a list of items at <A HREF="https://www.reichelt.de/my/1409494">Reichelt</A>.  
@@ -39,19 +40,19 @@ connector of the Wemos D1 Mini.
 
 7. If you need to flash the firmware via USB, you have to unplug the board and the Wemos first. This usually only applies to the first flashing process, because afterwards you can use the web-based flashing feature which is not affected by this.
 
-8. If you want to add the u-blox GPS  module, you can solder the pins one to one like this:  
+8. If you want to add the u-blox GPS module, you can solder the pins like this:  
 VCC <-> 3V3  
 GND <-> G  
 TX <-> D7  
 Do not connect the RX line of the module as it is not used and might interfere with the Wemos D1 Mini board.  
 If you connect the piezo buzzer to D2 (+) and GND (-), an SOS beep will turn on once the robot has left the permissible GPS coordinates.
 
-9. If you want to add the  <A HREF="https://amzn.to/2MoVvjT">ADXL335</A> acceleration sensor in older robots for detecting whether the robot is stuck, connect the pins one to one like this:  
+9. If you want to add the  ADXL335 acceleration sensor in older robots for detecting whether the robot is stuck, connect the pins one to one like this:  
 VCC <-> 3V3  
 GND <-> G  
 X/Y/Z (one of them) <-> A0  
 Use that axis pin on the ADXL335 that best matches the horizontal movement axis of the robot. This depends on where and in which direction you have attached the sensor inside the robot.  
-To reduce or at best eliminate false alarms on older robots when the robot is back in its base, you can use a <A HREF="https://amzn.to/3184fOL">Hall Effect Sensor KY-003</A> in combination with a <A HREF="https://amzn.to/2MqvkJP">strong magnet</A>. Connect ths pins like this:
+To reduce or at best eliminate false alarms on older robots when the robot is back in its base, you can use a Hall Effect Sensor KY-003 in combination with a strong magnet. Connect ths pins like this:
 VCC <-> 5V  
 GND <-> G  
 SIG/OUT <-> D1  
