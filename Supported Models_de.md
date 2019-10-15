@@ -107,6 +107,7 @@ L75 Evolution|X||X|
 |Stiga Autoclip 127|X||?|
 |Stiga Autoclip 140|X||?|
 |Stiga Autoclip 145|X||?|
+|Stiga Autoclip 221|X|X||  
 |Stiga Autoclip 223|X|X||  
 |Stiga Autoclip 225S|X|X||  
 |Stiga Autoclip 228S|X|X||  
