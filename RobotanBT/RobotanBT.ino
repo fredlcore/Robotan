@@ -2,13 +2,13 @@
 
 const uint32_t baud_rates[] = {9600, 38400, 57600, 115200};
 
-SoftwareSerial BluetoothSerial(2, 0, false, 256);
+SoftwareSerial BluetoothSerial;
 
 void setup(void) {
   Serial.begin(38400);
 
   for (int x = 0; x < 4; x++) {    
-    BluetoothSerial.begin(baud_rates[x]);
+    BluetoothSerial.begin(baud_rates[x], SWSERIAL_8N1, 2, 0, false, 256);
     Serial.print("\nRobotan Bluetooth module configuration starts at ");
     Serial.println(baud_rates[x]);
     BluetoothSerial.println("AT+NAME=\"Robot\"");
