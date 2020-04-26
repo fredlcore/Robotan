@@ -50,8 +50,8 @@ verwendet:
 `http://192.168.4.1:8080/update`  
 Wenn Du nach Zugangsdaten gefragt wirst, lautet der Benutzername <code>Robotan</code> und das Passwort <code>Robotan88</code>, es sei denn Du hast bei der Installation Deine eigenen Werte angegeben.
 
-4. Wähle im Browser-Upload die Robotan.ino.bin aus, die Du vorher heruntergeladen
-hast und klicke auf "Update".
+4. Wähle unter "Firmware-Update" die Robotan.ino.bin aus, die Du vorher heruntergeladen
+hast und klicke auf "Update". Bitte nicht unter "Filesystem-Update" hochladen, falls dies angezeigt werden sollte!
 
 5. Wenn der Upload erfolgreich war, wird Robotan neu starten und nach einer 
 kurzen Weile solltest Du das Robotan Webinterface unter 

@@ -36,7 +36,7 @@ If you have configured Robotan to use your existing WiFi network, you have to be
 `http://192.168.4.1:8080/update`  
 If you are asked for a login, the defautl username is "Robotan" and the password is "Robotan88". If you have configured your own credentials, of course you have to use them instead. 
 
-4. Browse to the Robotan.ino.bin you have downloaded before and click "Update".
+4. Under "Firmware-Update", please browse to the Robotan.ino.bin you have downloaded before and click "Update". Do not use the "Update Filesystem" upload option, if present.
 
 5. If the upload was successful, Robotan will reboot and after a short while you should be able to access the Robotan web interface at
 `http://192.168.4.1`.
