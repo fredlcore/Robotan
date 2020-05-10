@@ -29,7 +29,7 @@ To assemble the board, proceed as follows:
 
 2. Solder the five 0.1µF capacitators on the board at the designated spots
 
-3. Solder the 470µF capacitator  between 5V and G(ND) on the board - watch the polarity! Afterwards, bend the capacitator down, as shown in the photo below.
+3. Solder the 470µF capacitator on the board at the designatet spot - watch the polarity!
 
 4. Solder the two 8 pin sockets to the Wemos D1 mini and the two 8 pin headers on the Robotan board.
 
@@ -45,13 +45,14 @@ VCC <-> 3V3
 GND <-> G  
 TX <-> D7  
 Do not connect the RX line of the module as it is not used and might interfere with the Wemos D1 Mini board.  
-If you connect the piezo buzzer to D2 (+) and GND (-), an SOS beep will turn on once the robot has left the permissible GPS coordinates.
+If you connect the piezo buzzer to D2 (+) and GND (-), an SOS beep will turn on once the robot has left the permissible GPS coordinates.<BR><BR>
+On the newer version of the board, the pins in the parallel row marked as "GPS" can be used. Opposite of D6 is a GND pin so that the GPS module can be attached 1:1. Pin D0 is additionally located at the top right of the baurd so that a buzzer can be soldered in there direclty.
 
 9. If you want to add the  ADXL335 acceleration sensor in older robots for detecting whether the robot is stuck, connect the pins one to one like this:  
 VCC <-> 3V3  
 GND <-> G  
 X/Y/Z (one of them) <-> A0  
-Use that axis pin on the ADXL335 that best matches the horizontal movement axis of the robot. This depends on where and in which direction you have attached the sensor inside the robot.  
+Use that axis pin on the ADXL335 that best matches the horizontal movement axis of the robot. This depends on where and in which direction you have attached the sensor inside the robot. On the newer version of the board, the respective pins can be found in the parallel row named "ACC". The pins between 3V3 and GND are all connected to A0.  
 To reduce or at best eliminate false alarms on older robots when the robot is back in its base, you can use a Hall Effect Sensor KY-003 in combination with a strong magnet. Connect ths pins like this:
 VCC <-> 5V  
 GND <-> G  
@@ -59,7 +60,7 @@ SIG/OUT <-> D1
 Magnet and sensor should be placed in a way that there is only a very small distance between them when the robot is in its base (2-3 cm), this is possible for example by placing the sensor directly on/below the ground plate of the chassis and then place the magnet on the ground below, or to place the sensor at the front of the robot and the magnet attached to the charging elements. You might have to try a bit to find the most reliable position!   
 
 10. If you want to add the HC-05 Bluetooth module, you can solder the pins one 
-to one like this (see also image below):  
+to one like this, newer versions of the board have a parallel row labelled as "BLUETOOTH" which are connected the same way:  
 5V <-> 5V  
 GND <-> G  
 TX <-> D4  
@@ -72,8 +73,4 @@ into programming mode first by connecting the 5V and EN pins on the module
 while powering up. Better modules have a microswitch which you just need to
 press alternatively.  
 <H3>Done :-)!</H3>
-Position of the capacitator:<BR>
 <IMG SRC="img/Robotan-Board-Final.jpg">
-<BR><BR>
-Position of the Bluetooth module:<BR>
-<IMG SRC="img/8 - Adding Bluetooth module.jpg">
