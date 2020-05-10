@@ -44,7 +44,7 @@ VCC <-> 3V3
 GND <-> G    
 TX <-> D7  
 Den RX-Pin des GPS-Moduls nicht verbinden, da es den Boot-Prozess des Wemos D1 Mini Boards beeinflussen könnte.  
-Wenn ein Piezosummer mit Pin D0, (+) und GND (-) verbunden wird, ertönen SOS-Piepser, wenn sich der Roboter außerhalb der zulässigen GPS-Koordinaten befindet.
+Wenn ein Piezosummer mit Pin D0, (+) und GND (-) verbunden wird, ertönen SOS-Piepser, wenn sich der Roboter außerhalb der zulässigen GPS-Koordinaten befindet.<BR><BR>
 Bei der neuen Version des Boards können die entsprechenden Pins in der parallelen Anschlussreihe verwendet werden, die mit "GPS" beschriftet sind. Dort ist gegenüber von D6 ein Masse-Pin, so dass das Modul dort 1:1 angeschlossen werden kann. Pin D0 ist zusätzlich an der rechten Stirnseite des Boards ausgeführt, so dass hier ein Summer direkt angelötet werden kann. 
 
 9. Der optionale Beschleunigungssensor ADXL335, der die Stillstandserkennung bei älteren Robotern verbessert, muss wie folgt angeschlossen werden:  
