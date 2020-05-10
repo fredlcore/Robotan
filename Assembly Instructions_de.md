@@ -30,7 +30,7 @@ Dann wie folgt vorgehen:
 
 3. Dann die fünf 0.1µF Kondensatoren an den markierten Stellen auf das Board löten.
 
-4. Dann den 470µF Kondensator zwischen 5V und G(ND) auf das Board löten, dabei unbedingt die Polarität beachten! Den Kondensator dann zur Seite hin herunterbiegen (siehe Foto unten).
+4. Dann den 470µF Kondensator an der markierten Stelle auf das Board löten, dabei unbedingt die Polarität beachten!
 
 5. Dann den seriellen Stecker auf das Board löten. Ggf. muss man die zwei angrenzenden Kondensatoren etwas biegen.
 
@@ -39,18 +39,20 @@ Dann wie folgt vorgehen:
 7. Wenn die Firmware per USB geflasht werden muss (was in der Regel nur bei der allerersten Installation der Fall ist), muss dafür das Board wieder vom Wemos gelöst werden. Bei allen Flash-Vorgängen über die Weboberfläche ist das nicht nötig.
 
 8. Das optionale GPS-Modul kann wie folgt an das Robotan-Modul 
-angelötet werden:  
+angelötet werden: 
 VCC <-> 3V3  
 GND <-> G    
 TX <-> D7  
 Den RX-Pin des GPS-Moduls nicht verbinden, da es den Boot-Prozess des Wemos D1 Mini Boards beeinflussen könnte.  
-Wenn ein Piezosummer mit Pin D0 (neu, ältere Softwareversionen D2) (+) und GND (-) verbunden wird, ertönen SOS-Piepser, wenn sich der Roboter außerhalb der zulässigen GPS-Koordinaten befindet.
+Wenn ein Piezosummer mit Pin D0, (+) und GND (-) verbunden wird, ertönen SOS-Piepser, wenn sich der Roboter außerhalb der zulässigen GPS-Koordinaten befindet.
+Bei der neuen Version des Boards können die entsprechenden Pins in der parallelen Anschlussreihe verwendet werden, die mit "GPS" beschriftet sind. Dort ist gegenüber von D6 ein Masse-Pin, so dass das Modul dort 1:1 angeschlossen werden kann. Pin D0 ist zusätzlich an der rechten Stirnseite des Boards ausgeführt, so dass hier ein Summer direkt angelötet werden kann. 
 
 9. Der optionale Beschleunigungssensor ADXL335, der die Stillstandserkennung bei älteren Robotern verbessert, muss wie folgt angeschlossen werden:  
 VCC <-> 3V3  
 GND <-> G  
 X/Y/Z (einer davon) <-> A0  
-Dabei ist die Achse zu wählen, die nach Einbau des Sensors die horizontale Bewegungsachse am besten abbildet.  
+Dabei ist die Achse zu wählen, die nach Einbau des Sensors die horizontale Bewegungsachse am besten abbildet. 
+Bei der neueren Version des Boards sind die entsprechenden Pins in der parallelen Anschlussreihe bei der Beschriftung "ACC" zu finden. Die zwischen dem 3V3- und Masse-Pin liegenden Anschlüsse sind alle auf A0 geschaltet.<BR>
 Um bei älteren Robotern einen Fehlalarm bei Stillstand in der Basis zu vermeiden, kann mit dem Hall Effekt Sensor KY-003 in Kombination mit einem starken Magneten die Erkennung der Basis ermöglicht werden. Dabei muss die Verbindung wie folgt hergestellt werden:  
 VCC <-> 5V  
 GND <-> G  
@@ -58,7 +60,7 @@ SIG/OUT <-> D1
 Magnet und Sensor sind dann so zu platzieren, dass dazwischen ein möglichst kleiner Abstand erzielt wird (2-3 cm), möglich ist dies z.B., wenn der Sensor direkt an/unter der Bodenplattte befestigt wird und der Magnet darunter, oder an der Frontseite des Roboters und der Magnet an der Ladestation. Hier ist Ausprobieren gefragt!    
 
 10. Das optionale Bluetooth-Modul kann eins-zu-eins an das Robotan-Modul 
-angelötet werden (siehe auch Bild unten):  
+angelötet werden, bei der neuen Version des Boards können die entsprechenden Pins in der parallelen Anschlussreihe verwendet werden, die mit "Bluetooth" beschriftet sind:  
 5V <-> 5V  
 GND <-> G    
 TX <-> D4  
@@ -73,9 +75,4 @@ Moduls entweder durch das Kurzschließen der Pins 5V und EN oder durch Drücken
 eines Microschalters.
 
 <H3>Fertig :-)!</H3>
-Position des Kondensators:<BR>
 <IMG SRC="img/Robotan-Board-Final.jpg">
-<BR><BR>
-Position des Bluetooth-Moduls:<BR>
-<IMG SRC="img/8 - Adding Bluetooth module.jpg">
-
