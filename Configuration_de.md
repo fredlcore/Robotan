@@ -40,7 +40,7 @@ Damit kann eine URL aufgerufen werden, die den Grund für die Meldung als Parame
 wird, beende die URL einfach mit einem <code>#</code>. Der Grund für die Meldung
 wird zwar weiterhin an die URL angehängt, aber das <code>#</code> sorgt dafür,
 dass der Text nicht als Teil der URL interpretiert wird.<BR>
-Seit Mai 2019 sind nun auch Aufrufe von Seiten über https möglich!
+<B>Seit Mai 2020 sind nur noch Aufrufe von Seiten über https möglich!</B>
 
 <H4>Beispiel: Benachrichtigung über Prowl (Apple iPhone/iPad)</H4>
 
@@ -48,7 +48,7 @@ Seit Mai 2019 sind nun auch Aufrufe von Seiten über https möglich!
 iPhone und iPad. Nachdem Du Dich dort registriert hast, kannst Du dort einen API
 Schlüssel erzeigen, über den Du Benachrichtigungen an Dein Handy schicken kannst.
 Die URL für Robotan würde folgendermaßen aussehen:<BR>
-`http://api.prowlapp.com/publicapi/add?apikey=HIER DEN API SCHLÜSSEL EINTRAGEN&application=Robotan&event=`
+`https://api.prowlapp.com/publicapi/add?apikey=HIER DEN API SCHLÜSSEL EINTRAGEN&application=Robotan&event=`
 <BR>
 Beachte hierbei das Ende der URL: Der letzte Parameter ist "event=", woran 
 Robotan den Benachrichtigungsgrund anhängen wird, so dass die endgülgtige URL
