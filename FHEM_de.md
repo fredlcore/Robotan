@@ -34,7 +34,7 @@ define di_Ciiky_Daylight_Mowing DOIF ([01:10]) ## execute at 01:10 am
 Benötigt das Modul PROPLANTA, hier am Beispiel der Postleitzahl 29439<BR>
 <pre>
 define Wetter PROPLANTA 29439 de
-define di_No_Mow_When_Bad_Weather DOIF ([Wetter:fc0_tempMax] < 12 ## check if weather today is bad, i.e. less than 12°C or rain
+define di_No_Mow_When_Bad_Weather DOIF ([Wetter:fc0_tempMax] < 12 ## check if weather today is bad, i.e. rain or less than 12°C
 or ([Wetter:fc0_rain] > 1))
 (set Ciiky Mow_Today 0) ## then do not mow today
 </pre>
