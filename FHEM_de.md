@@ -2,7 +2,7 @@
 English version can be found <A HREF="FHEM.md">here</A>.
 <BR><BR>
 <H3>Robotan-Modul in FHEM einbinden</H3>
-Um Robotan in FHEM einzubinden, muss das Modul 98_Robotan.pm in das Verzeichnis `./opt/FHEM`unterhalb der FHEM-Installation
+Um Robotan in FHEM einzubinden, muss das Modul 98_Robotan.pm in das Verzeichnis `./opt/FHEM` unterhalb der FHEM-Installation
 kopiert werden.<BR>
 Dann erfolgt die Einbindung in FHEM mit<BR>
 `define Ciiky Robotan:Robotan88@192.168.1.51` 300<BR>
@@ -30,7 +30,7 @@ define di_Ciiky_Daylight_Mowing DOIF ([01:10]) ## execute at 01:10 am
 (set Ciiky End_Time_1 {(sunset_abs(-3600, "", "20:00"))})) ## set end time to one hour before sunset, but not later than 4:45pm
 ```
 <BR><BR>
-<B>Kein Mähen, wenn schlechtes Wetter vorhergesagt wird:<B><BR>
+<B>Kein Mähen, wenn schlechtes Wetter vorhergesagt wird:</B><BR>
 Benötigt das Modul PROPLANTA, hier am Beispiel der Postleitzahl 29439<BR>
 ```
 define Wetter PROPLANTA 29439 de
