@@ -24,7 +24,7 @@ Damit wird das Gerät "Ciiky" angelegt, mit den Standardzugangsdaten (Benutzerna
 <code>Mow_Today</code> - <code>0</code> entfernt den heutigen Tag aus <code>Mowing_Days</code>; <code>1</code> fügt den heutigen Tag zu <code>Mowing_Days</code> hinzu.
 <H3>Beispieleinbindungen</H3>
 <B>Mähzeiten entsprechend des Tageslichts anpassen:</B><BR>
-<code>
+<pre>
 define di_Ciiky_Daylight_Mowing DOIF ([01:10]) ## execute at 01:10 am
 ((set Ciiky Start_Time_1 {(sunrise_abs(3600, "08:15"))}), ## set start time to one hour after sunrise, but not earlier than 08:15 am
 (set Ciiky End_Time_1 {(sunset_abs(-3600, "", "20:00"))})) ## set end time to one hour before sunset, but not later than 4:45pm
@@ -32,16 +32,16 @@ define di_Ciiky_Daylight_Mowing DOIF ([01:10]) ## execute at 01:10 am
 <BR><BR>
 <B>Kein Mähen, wenn schlechtes Wetter vorhergesagt wird:</B><BR>
 Benötigt das Modul PROPLANTA, hier am Beispiel der Postleitzahl 29439<BR>
-<code><pre>
+<pre>
 define Wetter PROPLANTA 29439 de
 define di_No_Mow_When_Bad_Weather DOIF ([Wetter:fc0_tempMax] < 12 ## check if weather today is bad, i.e. less than 12°C or rain
 or ([Wetter:fc0_rain] > 1))
 (set Ciiky Mow_Today 0) ## then do not mow today
-</pre></code>
+</pre>
 <BR><BR>
 <B>Nachts wieder auf Standard-Mähtage zurücksetzen:</B><BR>
-<code><pre>
+<pre>
 define di_Ciiky_Set_Standard_Mowing_Times DOIF ([01:05]) ## execute at 01:05 am
 (set Ciiky Mowing_Days {(AttrVal("Ciiky","General_Mowing_Days",""))}, ## reset mowing days with value from General_Mowing_Days
 set Ciiky Border_Mowing_Days {(AttrVal("Ciiky","General_Border_Mowing_Days",""))}) ## reset border mowing days with value from General_Border_Mowing_Days
-</pre></code>
+</pre>
