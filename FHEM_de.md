@@ -29,7 +29,7 @@ define di_Ciiky_Daylight_Mowing DOIF ([01:10]) ## execute at 01:10 am
 ((set Ciiky Start_Time_1 {(sunrise_abs(3600, "08:15"))}), ## set start time to one hour after sunrise, but not earlier than 08:15 am
 (set Ciiky End_Time_1 {(sunset_abs(-3600, "", "20:00"))})) ## set end time to one hour before sunset, but not later than 4:45pm
 </pre>
-<BR><BR>
+<BR>
 <B>Kein Mähen, wenn schlechtes Wetter vorhergesagt wird:</B><BR>
 Benötigt das Modul PROPLANTA, hier am Beispiel der Postleitzahl 29439<BR>
 <pre>
@@ -38,7 +38,7 @@ define di_No_Mow_When_Bad_Weather DOIF ([Wetter:fc0_tempMax] < 12 ## check if we
 or ([Wetter:fc0_rain] > 1))
 (set Ciiky Mow_Today 0) ## then do not mow today
 </pre>
-<BR><BR>
+<BR>
 <B>Nachts wieder auf Standard-Mähtage zurücksetzen:</B><BR>
 <pre>
 define di_Ciiky_Set_Standard_Mowing_Times DOIF ([01:05]) ## execute at 01:05 am
