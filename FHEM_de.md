@@ -23,7 +23,7 @@ Damit wird das Gerät "Ciiky" angelegt, mit den Standardzugangsdaten (Benutzerna
 <code>General_Border_Mowing_Days</code> - Standard-Randmäh-Tage; kann von Funktionen verwendet werden, um z.B. nach <code>Mow_Today</code> die Standard-Einstellungen wieder herzustellen.<BR>
 <code>Mow_Today</code> - <code>0</code> entfernt den heutigen Tag aus <code>Mowing_Days</code>; <code>1</code> fügt den heutigen Tag zu <code>Mowing_Days</code> hinzu.
 <H3>Beispieleinbindungen</H3>
-<B>Mähzeiten entsprechend des Tageslichts anpassen:</B>
+<B>Mähzeiten entsprechend des Tageslichts anpassen:</B><BR>
 <code><pre>
 define di_Ciiky_Daylight_Mowing DOIF ([01:10]) ## execute at 01:10 am
 ((set Ciiky Start_Time_1 {(sunrise_abs(3600, "08:15"))}), ## set start time to one hour after sunrise, but not earlier than 08:15 am
