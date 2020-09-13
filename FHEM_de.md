@@ -16,6 +16,8 @@ Damit wird das Gerät "Ciiky" angelegt, mit den Standardzugangsdaten (Benutzerna
 <code>Play/Pause</code> - lässt den Roboter in bzw. aus dem Pause-Modus gehen. Der Pause-Modus ist Voraussetzung, um Parameter im Roboter zu ändern, u.a. auch die Mähzeiten und -tage.<BR>
 <code>Start_Time_1</code> - Beginn der ersten Mähzeit<BR>
 <code>End_Time_1</code> - Ende der ersten Mähzeit<BR>
+<code>Start_Time_2</code> - Beginn der zweiten Mähzeit<BR>
+<code>End_Time_2</code> - Ende der zweiten Mähzeit<BR>
 <BR>
 <code>Mowing_Days</code> - Setzt direkt die Wochentage im Roboter, an denen der Rand gemäht werden soll.<BR> 
 <code>General_Mowing_Days</code> - Standard-Mäh-Tage; kann kann von Funktionen verwendet werden, um z.B. nach <code>Mow_Today</code> die Standard-Einstellungen wieder herzustellen.<BR>
