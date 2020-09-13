@@ -9,6 +9,7 @@ WLAN Steuerung für Zucchetti-basierte Rasenmähroboter (Ambrogio, Stiga, Herkul
 <H2><A HREF="Installation_de.md">Installation</A></H2>
 <H2><A HREF="Setup_de.md">Software Setup</A></H2>
 <H2><A HREF="Configuration_de.md">Konfiguration</A></H2>
+<H2><A HREF="FHEM_de.md">Einbindung in FHEM</A></H2>
 <H2><A HREF="Troubleshooting_de.md">Fehlersuche</A></H2>
 <H2><A HREF="FAQ_de.md">Häufig gestellte Fragen (FAQ)</A></H2>
 
