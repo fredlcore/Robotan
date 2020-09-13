@@ -1,6 +1,6 @@
 <H2>Einbindung in FHEM</H2>
 English version can be found <A HREF="FHEM.md">here</A>.
-<BR><BR>
+<BR>
 <H3>Robotan-Modul in FHEM einbinden</H3>
 Um Robotan in FHEM einzubinden, muss das Modul 98_Robotan.pm in das Verzeichnis <code>./opt/FHEM</code> unterhalb der FHEM-Installation
 kopiert werden.<BR>
