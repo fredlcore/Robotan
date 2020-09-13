@@ -27,7 +27,7 @@ Damit wird das Gerät "Ciiky" angelegt, mit den Standardzugangsdaten (Benutzerna
 <pre>
 define di_Ciiky_Daylight_Mowing DOIF ([01:10]) ## execute at 01:10 am
 ((set Ciiky Start_Time_1 {(sunrise_abs(3600, "08:15"))}), ## set start time to one hour after sunrise, but not earlier than 08:15 am
-(set Ciiky End_Time_1 {(sunset_abs(-3600, "", "20:00"))})) ## set end time to one hour before sunset, but not later than 4:45pm
+(set Ciiky End_Time_1 {(sunset_abs(-3600, "", "20:00"))})) ## set end time to one hour before sunset, but not later than 8pm
 </pre>
 <BR>
 <B>Kein Mähen, wenn schlechtes Wetter vorhergesagt wird:</B><BR>
