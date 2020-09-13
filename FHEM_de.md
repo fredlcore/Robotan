@@ -18,7 +18,7 @@ Damit wird das Gerät "Ciiky" angelegt, mit den Standardzugangsdaten (Benutzerna
 <code>End_Time_1</code> - Ende der ersten Mähzeit<BR>
 <BR>
 <code>Mowing_Days</code> - Setzt direkt die Wochentage im Roboter, an denen der Rand gemäht werden soll.<BR> 
-<code>General_Mowing_Days</code> - Standard-Mäh-Tage; kann kann von Funktionen verwendet werden, um z.B. nach <code>Mow_Today<code> die Standard-Einstellungen wieder herzustellen.<BR>
+<code>General_Mowing_Days</code> - Standard-Mäh-Tage; kann kann von Funktionen verwendet werden, um z.B. nach <code>Mow_Today</code> die Standard-Einstellungen wieder herzustellen.<BR>
 <code>Border_Mowing_Days</code> - Setzt direkt die Wochentage im Roboter, an denen der Rand gemäht werden soll.<BR>
 <code>General_Border_Mowing_Days</code> - Standard-Randmäh-Tage; kann von Funktionen verwendet werden, um z.B. nach <code>Mow_Today</code> die Standard-Einstellungen wieder herzustellen.<BR>
 <code>Mow_Today</code> - <code>0</code> entfernt den heutigen Tag aus <code>Mowing_Days</code>; <code>1</code> fügt den heutigen Tag zu <code>Mowing_Days</code> hinzu.
