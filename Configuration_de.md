@@ -61,7 +61,7 @@ z.B. auf "event=Lift Error" enden könnte.
 Android Geräte. Nachdem Du die App installiert hast, bekommst Du einen Schlüssel
 angezeigt, über den Du Benachrichtigungen an Dein Handy schicken kannst.
 Die URL für Robotan würde folgendermaßen aussehen:<BR>
-`http://api.simplepush.io/send/HIER DEN SCHLÜSSEL EINTRAGEN/`
+`https://api.simplepush.io/send/HIER DEN SCHLÜSSEL EINTRAGEN/`
 <BR>
 Beachte hierbei das Ende der URL: Diese muss mit einem <code>/</code> hinter
 dem Schlüssel enden!
@@ -70,16 +70,16 @@ dem Schlüssel enden!
 
 Du kannst das <A HREF="scripts/sendmail.php">sendmail.php script</A> auf Deinen
 eigenen Server herunterladen und es so konfigurieren, dass es eine E-Mail über
-einen E-Mail Server Deiner Wahl verschickt. Das Script erwartet den Parameter
-"error" über einen HTTP GET-Aufruf, z.B.
-`http://this-is-my-server.com/sendmail.php?error=Error-Message`
+einen E-Mail Server Deiner Wahl verschickt. Wichtig: Es werden nur Adressen mit `https` unterstützt!
+Das Script erwartet den Parameter "error" über einen HTTP GET-Aufruf, z.B.
+`https://this-is-my-server.com/sendmail.php?error=Error-Message`
 <BR>
 Bitte überprüfe, dass das Script fehlerfrei läuft, bevor Du es in Robotan 
 einbindest, indem Du es vom Browser aus aufrufst. Wenn Du eine E-Mail von dem
 Script erhälst, kannst Du die URL in der Robotan Konfiguration wie folgt 
 einbinden:
 <BR>
-  `http://this-is-my-server.com/sendmail.php?error=`
+  `https://this-is-my-server.com/sendmail.php?error=`
 <BR>
 Dann klicke auf "Set URL" und Robotan wird jedes Mal, wenn ein Fehler auftritt,
 eine Benachrichtigung versenden.

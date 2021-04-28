@@ -27,27 +27,28 @@ and add the reason for the notification (i.e. "Lift Error") at the very end, so 
 <H4>Example for using Prowl (Apple iPhone/iPad)</H4>
 <A HREF="http://www.prowlapp.com">Prowl</A> is a notification app for iPhone and iPad. After you register, you can create an API key which 
 you can send your notifications to. The URL for Robotan would look like this:<BR>
-<code>http://api.prowlapp.com/publicapi/add?apikey=INSERT YOUR API KEY HERE&application=Robotan&event=</code>
+<code>https://api.prowlapp.com/publicapi/add?apikey=INSERT YOUR API KEY HERE&application=Robotan&event=</code>
 <BR>
 Take note of the end of the URL: The last parameter is "event=", so Robotan will add the reason for the notification there, so that the
 final URL might end like "event=Lift Error"
 <H4>Example for using SimplePush (Android)</H4>
 <A HREF="http://www.simplepush.io">SimplePush</A> is a notification app for Android. After you've downloaded the app, you'll get a key which 
 you can send your notifications to. The URL for Robotan would look like this:<BR>
-<code>http://http://api.simplepush.io/send/INSERT YOUR KEY HERE/</code>. 
+<code>https://api.simplepush.io/send/INSERT YOUR KEY HERE/</code>. 
 The error message will then be pushed to your Android device running the 
 SimplePush app. Please take note that the URL must end with a <code>/</code>
 after the key!
 <BR>
 <H4>Example for sending an e-mail via a PHP script</H4>
 You can download and install the <A HREF="scripts/sendmail.php">sendmail.php script</A> on your own server and configure it to send an
-e-mail through an e-mail service of your choice. The script expects the parameter "error" to be sent via a GET request like this:<BR>
-  <code>http://this-is-my-server.com/sendmail.php?error=Error-Message</code>
+e-mail through an e-mail service of your choice. Note: Only `https` addresses are supported!  
+The script expects the parameter "error" to be sent via a GET request like this:<BR>
+  <code>https://this-is-my-server.com/sendmail.php?error=Error-Message</code>
 <BR>
 Please make sure that the script runs smoothly before setting it up in Robotan by calling the script from your browser. If you receive
 an e-mail from the script, you can use the URL in the Robotan configuration like this:
 <BR>
-  <code>http://this-is-my-server.com/sendmail.php?error=</code>
+  <code>https://this-is-my-server.com/sendmail.php?error=</code>
 <BR>
 Then click "Set URL" and Robotan will send out a notification each time an error occurs.
 
