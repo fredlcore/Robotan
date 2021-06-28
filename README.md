@@ -27,5 +27,6 @@ Some boards left over from a collective order are still available. Contact robot
 
 <IMG SRC="./img/Configurations.png">  
 
-<B>Screencapture of realtime robot movements (new position polled every 10 seconds):</B>
+<B>Screencapture of realtime robot movements (new position polled every 10 seconds):</B>  
+  
 https://user-images.githubusercontent.com/24660955/123637079-e1455280-d81d-11eb-9b20-2d750a1a620e.mp4
