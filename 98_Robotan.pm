@@ -120,7 +120,7 @@ sub Robotan_ParseStatus($$) {
   foreach my $p ( keys %{$decoded} ) {
     my $reading = $decoded->{$p}{name};
     my $value = $decoded->{$p}{value};
-    $reading =~ s/ /_/g;
+    $reading =~ s/[ \(\)]/_/g;
 
     if ($reading eq "Functionality") {
       if ($value gt "0") {
@@ -339,7 +339,7 @@ sub Robotan_EvalHttp ($$$) {
   Log3 $name, 4, "$name: HTTP response code: " . $param->{code};
   if ($param->{path} eq "/json") {
     &Robotan_ParseStatus($hash, $data);
-    Log 5, "$data";
+    Log3 $name, 5, "Data: $data";
   } else {
     Log3 $name, 4, "$data";
   }
